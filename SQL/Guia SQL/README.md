@@ -66,7 +66,7 @@
         + Analisando Consultas com EXPLAIN
         + Tecnicas de Otimização 
     - Exercícios Práticos
-7. [Projetos Práticos: Sistema de Gerenciamento de Restaurante](#Projetos-Práticos:-Sistema-de-Gerenciamento-de-Restaurante)
+7. [Projetos Práticos: Sistema de Gerenciamento de Restaurante](#Projetos-Práticos-Sistema-de-Gerenciamento-de-Restaurante)
     + Requisitos do Projeto
     + Estrutura do Banco de Dados
     + Tabela Funcionários
