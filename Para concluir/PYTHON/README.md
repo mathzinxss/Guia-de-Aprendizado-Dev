@@ -2,11 +2,11 @@
 
 ## Índice
 
-### 1. [Introdução ao Python](#Introducao-ao-Python)
+### 1. [Introdução](#Introducao-ao-Python)
 
-### 2. [Conceitos Básicos de Python](#Conceitos-Basicos-de-Python)
+### 2. [Conceitos Básicos](#Conceitos-Basicos-de-Python)
 
-### 3. [Programação Orientada a Objetos (OPP)](#Programação-Orientada-a-Objetos-OPP)
+### 3. [Programação Orientada](#Programação-Orientada-a-Objetos-OPP)
 
 ### 4. [](#)
 
