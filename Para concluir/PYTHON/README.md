@@ -21,26 +21,73 @@
   - Conceitos de OOP (Classes, Objetos, Atributos, Métodos)
   - Herança
   - Polimorfismo
+  - Encapsulamento
+  - Métodos Especiais (dunder/magic methods)
 
 ### 4. [Módulo Padrão](#Bibliotecas-e-Módulos-Padrão)
+  - Introdução aos Módulos e Pacotes
+  - Importando Módulos
+  - Bibliotecas Padrão Essenciais (os, sys, datetime, math, random)
+  - Gerenciamento de Dependência com pip
 
 ### 5. [Análise de Dados](#Manipulação-e-Análise-de-Dados)
+  - Bibliotecas de Análise de Dados (Pandas, NumPy)
+  - Manipulação de DateFrames e Arrays
+  - Leitura e Escrita de Arquivos CSV, Excel e JSON
+  - Limpeza e Preparação de Dados
 
 ### 6. [Visualização](#Visualização-de-Dados)
+  - Bibliotecas de Visualização (Matplotlib, Seaborn)
+  - Criação de Gráficos Simples e Avançados
+  - Personalização de Gráficos
+  - Visualização Interativa com Plotly
 
 ### 7. [Desenvolvimento Web](#Desenvolvimento-Web-com-Python)
+  - Introdução ao Desenvolvimento Web
+  - Flask: Conceitos Básicos e Aplicações Simples
+  - Django: Estrutura de Projetos, Modelos, Vistas e Templates
+  - Autenticação e Autorização
+  - Deploy de Aplicações Web
 
 ### 8. [Machine Learning](#Machine-Learning)
+  - Introdução ao Machine Learning
+  - Bibliotecas de Machine Learning (Scikit-Learn, TensorFlow, Keras)
+  - Pré-processamento de Dados
+  - Modelos Supervisionados (Regressão, Classificação)
+  - Modelos Não Supervisionados (Clustering, Redução de Dimensionalidade)
+  - Avaliação de Modelos
 
 ### 9. [Testes](#Testes-Autorizados)
-
+  - Importância dos Testes Automatizados
+  - Tipos de Testes (unitários, de integração, de aceitação)
+  - Frameworks de Testes (unittest, pytest)
+  - Cobertura de Testes
+  - 
 ### 10.[APIs](#Desenvolvimento-de-APIs)
+  - Conceitos de APIs
+  - Criação de APIs RESTful com Flask e Django REST Framework
+  - Testando APIs com Postman e pytest
+  - Documentação de APIs com Swagger
 
 ### 11. [Práticas de Desenvolvimento](#Ferramentas-e-Práticas-de-Desenvolvimento)
-
+  - Controle de Versão com Git e GitHub
+  - Ambiente Virtual e Gerenciamento de Dependências com virtualenv e pipenv
+  - Estilo de Código e Linters (PEP8, flake8)
+  - Automação de Tarefas com Makefile e Scripts Python
+  - Continuous Integration (CI) e Continuous Deployment (CD) com GitHub Actions e Travis CI
+    
 ### 12. [Projetos](#Projetos-Avançados)
+  - Web Scraping com BeautifulSoup e Scrapy
+  - Automação de Tarefas com Selenium
+  - Desenvolvimento de Bots com Telegram e Discord API
+  - Integração com Serviços de Nuvem (AWS, Azure, Google Cloud)
+  - Desenvolvimento de Aplicações Desktop com Tkinter e PyQt
 
 ### 13. [Recursos](#Recursos-Adicionais)
+  - Livros e Tutoriais Recomendados
+  - Comunidades e Fóruns (Stack Overflow, Reddit, Discord)
+  - Cursos Online e Certificações
+  - Contribuição para Projetos Open Source
 
 ***
 
