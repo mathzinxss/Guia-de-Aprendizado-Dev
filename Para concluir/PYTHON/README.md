@@ -93,26 +93,52 @@
 
 ## **Introdução ao Python**
 
+[⬆️ Voltar ao Início](#Índice)
+
 ## **Conceitos Básicos de Python**
+
+[⬆️ Voltar ao Início](#Índice)
 
 ## **Programação Orientada a Objetos (OPP)**
 
+[⬆️ Voltar ao Início](#Índice)
+
 ## **Bibliotecas e Módulos Padrão**
+
+[⬆️ Voltar ao Início](#Índice)
 
 ## **Manipulação e Análise de Dados**
 
+[⬆️ Voltar ao Início](#Índice)
+
 ## **Visualização de Dados**
+
+[⬆️ Voltar ao Início](#Índice)
 
 ## **Desenvolvimento Web com Python** 
 
+[⬆️ Voltar ao Início](#Índice)
+
 ## **Machine Learning**
+
+[⬆️ Voltar ao Início](#Índice)
 
 ## **Testes Autorizados**
 
+[⬆️ Voltar ao Início](#Índice)
+
 ## **Desenvolvimento de APIs**
+
+[⬆️ Voltar ao Início](#Índice)
 
 ## **Ferramentas e Práticas de Desenvolvimento**
 
+[⬆️ Voltar ao Início](#Índice)
+
 ## **Projetos Avançados**
 
+[⬆️ Voltar ao Início](#Índice)
+
 ## **Recursos Adicionais**
+
+[⬆️ Voltar ao Início](#Índice)
