@@ -212,7 +212,7 @@
 
 [⬆️ Volta ao início](#Índice)
 
-## Elementos de Formulário em HTML
+## Elementos de Formulários em HTML
 
 [⬆️ Volta ao início](#Índice)
 
