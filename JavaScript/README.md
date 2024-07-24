@@ -2,7 +2,7 @@
 
 ## Índice
 
-1. [Introdução](#Introdução-ao-Desenvolvimento-Web-🌐)
+1. [Introdução](#Introdução-ao-Desenvolvimento-Web)
   - O que é Desenvolvimento Web
     - História e Evolução da Web
     - Áreas do Desenvolvimento Web
@@ -10,7 +10,7 @@
     - HTML (HyperText Markup Language)
     - CSS (Cascading Style Sheets)
     - JavaScript
-2. [HTML](#Fundamentos-de-HTML-📄)
+2. [HTML](#Fundamentos-de-HTML)
   - Estruturas Básicas de um Documento HTML
   - Elementos de Texto
   - Tags e Estruturas
@@ -187,11 +187,11 @@
 
 
 
-## Introdução ao Desenvolvimento Web 🌐
+## Introdução ao Desenvolvimento Web
 
 [⬆️ Volta ao início](#Índice)
 
-## Fundamentos de HTML 📄
+## Fundamentos de HTML
 
 [⬆️ Volta ao início](#Índice)
 
