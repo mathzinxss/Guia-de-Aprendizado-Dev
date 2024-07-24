@@ -71,7 +71,7 @@
     - `display: inline-block`
     - `display: none`
   - Exercícios
-8. [Elementos e Formulários](#Elementos-e-Formulários-em-HTML)
+8. [Elementos de Formulários](#Elementos-de-Formulários-em-HTML)
   - Estruturas do Formulário
   - Elementos de Entrada (input)
     - Tipos Comuns de Input
@@ -189,80 +189,80 @@
 
 ## Introdução ao Desenvolvimento Web
 
-[⬆️ Volta ao início](#Índice)
+[⬆️ Volta ao início](#Introdução)
 
 ## Fundamentos de HTML
 
-[⬆️ Volta ao início](#Índice)
+[⬆️ Volta ao início](#HTML)
 
 ## Fundamentos de CSS
 
-[⬆️ Volta ao início](#Índice)
+[⬆️ Volta ao início](#CSS)
 
 ## Fundamentos de JavaScript
 
-[⬆️ Volta ao início](#Índice)
+[⬆️ Volta ao início](#JavaScript)
 
 ## Criando sua Primeira Página Web
 
-[⬆️ Volta ao início](#Índice)
+[⬆️ Volta ao início](#Primeira-Página-Web)
 
 ## Trabalhando com Imagens e Links
 
-[⬆️ Volta ao início](#Índice)
+[⬆️ Volta ao início](#Imagens-e-Links)
 
 ## Estilizando a Página com CSS
 
-[⬆️ Volta ao início](#Índice)
+[⬆️ Volta ao início](#Estilizando-Páginas)
 
 ## Elementos de Formulário em HTML
 
-[⬆️ Volta ao início](#Índice)
+[⬆️ Volta ao início](#Elementos-de-Formulários)
 
 ## Projeto 1: Página de Perfil
 
-[⬆️ Volta ao início](#Índice)
+[⬆️ Volta ao início](#Projeto-1)
 
 ## Layout Responsivo
 
-[⬆️ Volta ao início](#Índice)
+[⬆️ Volta ao início](#Design-Responsivo)
 
 ## Elementos Semânticos e Acessibilidade
 
-[⬆️ Volta ao início](#Índice)
+[⬆️ Volta ao início](#Elementos-Semânticos)
 
 ## Projeto 2: Blog Pessoal
 
-[⬆️ Volta ao início](#Índice)
+[⬆️ Volta ao início](#Projeto-2)
 
 ## Manipulação Avançada do DOM
 
-[⬆️ Volta ao início](#Índice)
+[⬆️ Volta ao início](#Manipulação-do-DOM)
 
 ## Projeto 3: Página de Portfólio (HTML e CSS)
 
-[⬆️ Volta ao início](#Índice)
+[⬆️ Volta ao início](#Projeto-3)
 
 ## Interatividade Básica com JavaScript
 
-[⬆️ Volta ao início](#Índice)
+[⬆️ Volta ao início](#Interatividade-Básica)
 
 ## Trabalhando com Listas e Tabelas
 
-[⬆️ Volta ao início](#Índice)
+[⬆️ Volta ao início](#Listas-e-Tabelas)
 
 ## Projeto 4: Lista de Tarefas
 
-[⬆️ Volta ao início](#Índice)
+[⬆️ Volta ao início](#Projeto-4)
 
 ## Layouts Avançados com Flexbox e Grid
 
-[⬆️ Volta ao início](#Índice)
+[⬆️ Volta ao início](#Flexbox-e-Grid)
 
 ## Projeto 5: Dashboard Responsivo
 
-[⬆️ Volta ao início](#Índice)
+[⬆️ Volta ao início](#Projeto-5)
 
 ## JavaScript Avançado
 
-[⬆️ Volta ao início](#Índice)
+[⬆️ Volta ao início](#JavaScript-Avançado)
