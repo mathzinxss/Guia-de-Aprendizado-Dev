@@ -188,80 +188,78 @@
 
 ## Introdução ao Desenvolvimento Web
 
-[⬆️ Volta ao início](#Introdução)
-
 ## Fundamentos de HTML
 
-[⬆️ Volta ao início](#Introdução)
+[⬆️ Volta ao início](#Índice)
 
 ## Fundamentos de CSS
 
-[⬆️ Volta ao início](#Introdução)
+[⬆️ Volta ao início](#Índice)
 
 ## Fundamentos de JavaScript
 
-[⬆️ Volta ao início](#Introdução)
+[⬆️ Volta ao início](#Índice)
 
 ## Criando sua Primeira Página Web
 
-[⬆️ Volta ao início](#Introdução)
+[⬆️ Volta ao início](#Índice)
 
 ## Trabalhando com Imagens e Links
 
-[⬆️ Volta ao início](#Introdução)
+[⬆️ Volta ao início](#Índice)
 
 ## Estilizando a Página com CSS
 
-[⬆️ Volta ao início](#Introdução)
+[⬆️ Volta ao início](#Índice)
 
 ## Elementos de Formulário em HTML
 
-[⬆️ Volta ao início](#Introdução)
+[⬆️ Volta ao início](#Índice)
 
 ## Projeto 1: Página de Perfil
 
-[⬆️ Volta ao início](#Introdução)
+[⬆️ Volta ao início](#Índice)
 
 ## Layout Responsivo
 
-[⬆️ Volta ao início](#Introdução)
+[⬆️ Volta ao início](#Índice)
 
 ## Elementos Semânticos e Acessibilidade
 
-[⬆️ Volta ao início](#Introdução)
+[⬆️ Volta ao início](#Índice)
 
 ## Projeto 2: Blog Pessoal
 
-[⬆️ Volta ao início](#Introdução)
+[⬆️ Volta ao início](#Índice)
 
 ## Manipulação Avançada do DOM
 
-[⬆️ Volta ao início](#Introdução)
+[⬆️ Volta ao início](#Índice)
 
 ## Projeto 3: Página de Portfólio (HTML e CSS)
 
-[⬆️ Volta ao início](#Introdução)
+[⬆️ Volta ao início](#Índice)
 
 ## Interatividade Básica com JavaScript
 
-[⬆️ Volta ao início](#Introdução)
+[⬆️ Volta ao início](#Índice)
 
 ## Trabalhando com Listas e Tabelas
 
-[⬆️ Volta ao início](#Introdução)
+[⬆️ Volta ao início](#Índice)
 
 ## Projeto 4: Lista de Tarefas
 
-[⬆️ Volta ao início](#Introdução)
+[⬆️ Volta ao início](#Índice)
 
 ## Layouts Avançados com Flexbox e Grid
 
-[⬆️ Volta ao início](#Introdução)
+[⬆️ Volta ao início](#Índice)
 
 ## Projeto 5: Dashboard Responsivo
 
-[⬆️ Volta ao início](#Introdução)
+[⬆️ Volta ao início](#Índice)
 
 ## JavaScript Avançado
 
-[⬆️ Volta ao início](#Introdução)
+[⬆️ Volta ao início](#Índice)
