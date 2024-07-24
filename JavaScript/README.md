@@ -96,7 +96,6 @@
     - Alinhamento e Justificação
   - Exemplos Práticos
   - Exercícios
-11. [Elementos Semânticos](#Elementos-Semânticos-e-Acessibilidade)
   - Elementos Semânticos
     - Elementos Comuns
   - Importância da Acessibilidade
@@ -193,76 +192,76 @@
 
 ## Fundamentos de HTML
 
-[⬆️ Volta ao início](#HTML)
+[⬆️ Volta ao início](#Introdução)
 
 ## Fundamentos de CSS
 
-[⬆️ Volta ao início](#CSS)
+[⬆️ Volta ao início](#Introdução)
 
 ## Fundamentos de JavaScript
 
-[⬆️ Volta ao início](#JavaScript)
+[⬆️ Volta ao início](#Introdução)
 
 ## Criando sua Primeira Página Web
 
-[⬆️ Volta ao início](#Primeira-Página-Web)
+[⬆️ Volta ao início](#Introdução)
 
 ## Trabalhando com Imagens e Links
 
-[⬆️ Volta ao início](#Imagens-e-Links)
+[⬆️ Volta ao início](#Introdução)
 
 ## Estilizando a Página com CSS
 
-[⬆️ Volta ao início](#Estilizando-Páginas)
+[⬆️ Volta ao início](#Introdução)
 
 ## Elementos de Formulário em HTML
 
-[⬆️ Volta ao início](#Elementos-de-Formulários)
+[⬆️ Volta ao início](#Introdução)
 
 ## Projeto 1: Página de Perfil
 
-[⬆️ Volta ao início](#Projeto-1)
+[⬆️ Volta ao início](#Introdução)
 
 ## Layout Responsivo
 
-[⬆️ Volta ao início](#Design-Responsivo)
+[⬆️ Volta ao início](#Introdução)
 
 ## Elementos Semânticos e Acessibilidade
 
-[⬆️ Volta ao início](#Elementos-Semânticos)
+[⬆️ Volta ao início](#Introdução)
 
 ## Projeto 2: Blog Pessoal
 
-[⬆️ Volta ao início](#Projeto-2)
+[⬆️ Volta ao início](#Introdução)
 
 ## Manipulação Avançada do DOM
 
-[⬆️ Volta ao início](#Manipulação-do-DOM)
+[⬆️ Volta ao início](#Introdução)
 
 ## Projeto 3: Página de Portfólio (HTML e CSS)
 
-[⬆️ Volta ao início](#Projeto-3)
+[⬆️ Volta ao início](#Introdução)
 
 ## Interatividade Básica com JavaScript
 
-[⬆️ Volta ao início](#Interatividade-Básica)
+[⬆️ Volta ao início](#Introdução)
 
 ## Trabalhando com Listas e Tabelas
 
-[⬆️ Volta ao início](#Listas-e-Tabelas)
+[⬆️ Volta ao início](#Introdução)
 
 ## Projeto 4: Lista de Tarefas
 
-[⬆️ Volta ao início](#Projeto-4)
+[⬆️ Volta ao início](#Introdução)
 
 ## Layouts Avançados com Flexbox e Grid
 
-[⬆️ Volta ao início](#Flexbox-e-Grid)
+[⬆️ Volta ao início](#Introdução)
 
 ## Projeto 5: Dashboard Responsivo
 
-[⬆️ Volta ao início](#Projeto-5)
+[⬆️ Volta ao início](#Introdução)
 
 ## JavaScript Avançado
 
-[⬆️ Volta ao início](#JavaScript-Avançado)
+[⬆️ Volta ao início](#Introdução)
