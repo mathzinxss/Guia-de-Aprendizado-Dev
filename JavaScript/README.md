@@ -2,7 +2,7 @@
 
 ## Índice
 
-1. [Introdução](#Introdução-ao-Desenvolvimento-Web)
+1. [**Introdução**](#Introdução-ao-Desenvolvimento-Web)
   - O que é Desenvolvimento Web
     - História e Evolução da Web
     - Áreas do Desenvolvimento Web
@@ -10,12 +10,12 @@
     - HTML (HyperText Markup Language)
     - CSS (Cascading Style Sheets)
     - JavaScript
-2. [HTML](#Fundamentos-de-HTML)
+2. [**HTML**](#Fundamentos-de-HTML)
   - Estruturas Básicas de um Documento HTML
   - Elementos de Texto
   - Tags e Estruturas
   - Exercícios
-3. [CSS](#Fundamentos-de-CSS)
+3. [**CSS**](#Fundamentos-de-CSS)
   - Introdução ao CSS
     - História do CSS
   - Sintaxe Básica e Seletores
@@ -30,7 +30,7 @@
     - Estilos Internos
     - Estilos Externos
   - Exercícios
-4. [JavaScript](#Fundamentos-de-JavaScript)
+4. [**JavaScript**](#Fundamentos-de-JavaScript)
   - Introdução ao JavaScript
     - História do JavaScript
   - Sintaxe Básica e Variáveis
@@ -43,12 +43,12 @@
     - Script Inline
     - Script Externo
   - Exercícios
-5. [Primeira Página Web](#Criando-sua-Primeira-Página-Web)
+5. [**Primeira Página Web**](#Criando-sua-Primeira-Página-Web)
   - Estruturas Básicas da Página
   - Adicionando e Estilizando Texto
   - Introduzindo Interatividade com JavaScript
   - Exercícios
-6. [Imagens e Links](#Trabalhando-com-Imagens-e-Links)
+6. [**Imagens e Links**](#Trabalhando-com-Imagens-e-Links)
   - Inserindo Imagens
     - Atributos da Tag `<img>`
   - Criando Links
@@ -58,7 +58,7 @@
     - Estilizando Links
   - Exemplos Práticos
   - Exercícios
-7. [Estilizando Páginas](#Estilizando-a-Página-com-CSS)
+7. [**Estilizando Páginas**](#Estilizando-a-Página-com-CSS)
   - Box Model
     - Estrutura de Box Model
   - Backgrounds (Fundos)
@@ -71,7 +71,7 @@
     - `display: inline-block`
     - `display: none`
   - Exercícios
-8. [Elementos de Formulários](#Elementos-de-Formulários-em-HTML)
+8. [**Elementos de Formulários**](#Elementos-de-Formulários-em-HTML)
   - Estruturas do Formulário
   - Elementos de Entrada (input)
     - Tipos Comuns de Input
@@ -80,12 +80,12 @@
   - Listas de Opções (select)
   - Validação Básicas com HTML5
   - Exercícios
-9. [Projeto 1](#Projeto:-Página-de-Perfil)
+9. [**Projeto I**](#Projeto-I:-Página-de-Perfil)
   - Estrutura HTML da Página
   - Estilização Avançada com CSS
   - Adicionando Imagens e Links
   - Exercícios
-10. [Design Responsivo](#Layout-Responsivo)
+10. [**Design Responsivo**](#Layout-Responsivo)
   - Introdução ao Design Responsivo
     - Unidades Flexíveis
   - Media Queries
@@ -103,12 +103,12 @@
   - Atributos ARIA (Acessible Rich Internet Applications)
     - Exemplos de Atributos ARIA
   - Exercícios
-12. [Projeto: 2](#Projeto-2:-Blog-Pessoal)
+12. [**Projeto II**](#Projeto-II:-Blog-Pessoal)
   - Estrutura HTML do Blog
   - Estilização com CSS
   - Adicionando Elementos Semânticos
   - Exercícios
-13. [Manipulação do DOM](#Manipulação-Avançada-do-DOM)
+13. [**Manipulação do DOM**](#Manipulação-Avançada-do-DOM)
   - Seleção de Múltiplos Elementos
     - `getElementById`
     - `getElementByClassName`
@@ -124,13 +124,13 @@
     - Adicionando Eventos
     - Eventos Comuns
   - Exercícios 
-14. [Projeto: 3](#Projeto-3:-Página-de-Portfólio-HTML-e-CSS)
+14. [**Projeto III **](#Projeto-III:-Página-de-Portfólio-HTML-e-CSS)
   - Estrutura HTMl do Portfólio
   - Estilização Avançada com CSS
   - Adicionando Elementos Gráficos e Animações Simples
     - Animações com CSS
   - Exercícios
-15. [Interatividade Básica](#Interatividade-Básica-com-JavaScript)
+15. [**Interatividade Básica**](#Interatividade-Básica-com-JavaScript)
   - Manipulação de Eventos
     - Eventos de Clique (`click`)
     - Eventos de Mouse (`mouseover` e `mouseout`)
@@ -139,7 +139,7 @@
     - Validação de Formulário
   - Interações Básicas (Mostrar/Esconder Elementos)
   - Exercícios
-16. [Listas e Tabelas](#Trabalhando-com-Listas-e-Tabelas)
+16. [**Listas e Tabelas**](#Trabalhando-com-Listas-e-Tabelas)
   - Criando Listas
     - Listas não Ordenadas (`ul`)
     - Listas Ordenadas (`ol`)
@@ -152,14 +152,14 @@
     - Estilizando Listas
     - Estilizando Tabelas
   - Exercícios
-17. [Projeto: 4](#Projeto-4:-Lista-de-Tarefas)
+17. [**Projeto IV**](#Projeto-IV:-Lista-de-Tarefas)
   - Estrutura HTML da Lista de Tarefas
   - Estilizando a Lista com CSS
   - Adicionando Interatividade com JavaScript
     - Adicionando Tarefas
     - Marcar Tarefas como Concluídas
   - Exercícios
-18. [Flexbox e Grid](#Layout-Avançado-com-Flexbox-e-Grid)
+18. [**Flexbox e Grid**](#Layout-Avançado-com-Flexbox-e-Grid)
   - Flexbox
     - Estrutura Básica do Flexbox
     - Direção e Alinhamento
@@ -173,7 +173,7 @@
     - Posicionamento de Itens
     - Exemplos Práticos com Grid Layout
   - Exercícios
-19. [Projeto 5: Dashboard Responsivo](#Projeto-5:-Dashboard-Responsivo)
+19. [Projeto V](#Projeto-V:-Dashboard-Responsivo)
   - Estrutura HTML do Dashboard
   - Layout e Estilização com Flexbox e Grid
     - Estilizando a Página
@@ -182,7 +182,7 @@
     - Criando um Gráfico
     - Ajustando o Layout para Responsividade
   - Exercícios
-20. [JavaScript Avançado](#JavaScript-Avançado)
+20. [**JavaScript Avançado**](#JavaScript-Avançado)
 
 
 
