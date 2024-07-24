@@ -80,7 +80,7 @@
   - Listas de Opções (select)
   - Validação Básicas com HTML5
   - Exercícios
-9. [Projeto: 1](#Projeto-1:-Página-de-Perfil)
+9. [Projeto 1](#Projeto-1:-Página-de-Perfil)
   - Estrutura HTML da Página
   - Estilização Avançada com CSS
   - Adicionando Imagens e Links
