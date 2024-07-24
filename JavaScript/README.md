@@ -2,7 +2,7 @@
 
 ## Índice
 
-1. [Introdução](#Introdução-ao-Desenvolvimento-Web)
+1. [Introdução](#Introdução-ao-Desenvolvimento-Web-🌐)
   - O que é Desenvolvimento Web
     - História e Evolução da Web
     - Áreas do Desenvolvimento Web
