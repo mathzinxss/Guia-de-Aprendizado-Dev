@@ -4,8 +4,6 @@
 
 1. [Introdução ao Desenvolvimento Web 🌐](#Introdução-ao-Desenvolvimento-Web)
 
-## Projeto 4: Lista de Tarefas 📝
-
 2. [Fundamentos de HTML 📄](#Fundamentos-de-HTML)
 
 3. [Fundamentos de CSS 🎨](#Fundamentos-de-CSS)
@@ -36,13 +34,13 @@
 
 16. [Trabalhando com Listas e Tabelas 📋](#Trabalhando-com-Listas-e-Tabelas)
 
-17. [Projeto 4: Lista de Tarefas](#Projeto-4-Lista-de-Tarefas)
+17. [Projeto 4: Lista de Tarefas 📝](#Projeto-4-Lista-de-Tarefas)
 
-18. [
+18. [Layouts Avançados com Flexbox e Grid 🎨](#Layouts-Avançados-com-Flexbox-e-Grid)
 
-19. [
+19. [Projeto 5: Dashboard Responsivo 📊](#Projeto-5-Dashboard-Responsivo)
 
-20. [
+20. [JavaScript Avançado 💻](#JavaScript-Avançado)
 
 ---
 
@@ -110,21 +108,20 @@
 
 [⬆️ Voltar para o Início](#Índice)
 
-
-
-[⬆️ Voltar para o Início](#Índice)
-
-##
+## Projeto 4: Lista de Tarefas
 
 [⬆️ Voltar para o Início](#Índice)
 
-##
+## Layouts Avançados com Flexbox e Grid
 
 [⬆️ Voltar para o Início](#Índice)
 
-##
+## Projeto 5: Dashboard Responsivo
 
-[Projeto 4: Lista de Tarefas](#Projeto-4-Lista-de-Tarefas-📝)
+[⬆️ Voltar para o Início](#Índice)
+
+## JavaScript Avançado
+
 [⬆️ Voltar para o Início](#Índice)
 
 
