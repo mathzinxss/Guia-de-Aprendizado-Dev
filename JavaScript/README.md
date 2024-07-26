@@ -18,7 +18,7 @@
 
 8. [Elementos de Formulário em HTML 📝](#Elementos-de-Formulário-em-HTML)
 
-9. [Projeto I: Página de Perfil 🌟](#Projeto-I-Página-de-Perfil)
+9. [Projeto 1: Página de Perfil 🌟](#Projeto-1-Página-de-Perfil)
 
 10. [
 
@@ -116,7 +116,7 @@
 ---
 [⬆️ Voltar para o Início](#Índice)
 
-## Projeto I: Página de Perfil
+## Projeto 1: Página de Perfil
 ---
 ---
 ---
