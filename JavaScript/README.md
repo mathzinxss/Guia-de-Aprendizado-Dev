@@ -4,6 +4,8 @@
 
 1. [Introdução ao Desenvolvimento Web 🌐](#Introdução-ao-Desenvolvimento-Web)
 
+## Projeto 4: Lista de Tarefas 📝
+
 2. [Fundamentos de HTML 📄](#Fundamentos-de-HTML)
 
 3. [Fundamentos de CSS 🎨](#Fundamentos-de-CSS)
@@ -108,7 +110,7 @@
 
 [⬆️ Voltar para o Início](#Índice)
 
-## Projeto 4: Lista de Tarefas 📝
+
 
 [⬆️ Voltar para o Início](#Índice)
 
@@ -122,6 +124,7 @@
 
 ##
 
+[Projeto 4: Lista de Tarefas](#Projeto-4-Lista-de-Tarefas)
 [⬆️ Voltar para o Início](#Índice)
 
 
