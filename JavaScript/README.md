@@ -3,11 +3,33 @@
 ## Índice
 
 1. [Introdução ao Desenvolvimento Web 🌐](#Introdução-ao-Desenvolvimento-Web)
-
+  - O que é Desenvolvimento Web
+    - História e Evolução da Web
+    - Áreas do Desenvolvimento Web
+  - Introdução ao HTML, CSS e JavaScript
+    - HTML (HyperText Markup Language)
+    - CSS (Cascading Style Sheets)
+    - JavaScript
 2. [Fundamentos de HTML 📄](#Fundamentos-de-HTML)
-
+  - Estruturas Básicas de um Documento HTML
+  - Elementos de Texto
+  - Tags de Estrutura
+  - Exercícios
 3. [Fundamentos de CSS 🎨](#Fundamentos-de-CSS)
-
+  - Introdução ao CSS
+    - História do CSS
+  - Sintaxe Básica e Seletores
+    - Estrutura de Sintaxe CSS
+    - Tipos de Seletores
+  - Estilizando Texto
+    - Propriedades de Fonte
+    - Propriedades de Cor e Fundo
+    - Propriedades de Espaçamento
+  - Aplicando CSS ao HTML
+    - Estilo Inline
+    - Extilo Interno
+    - Estilo Externo
+  - Exercícios
 4. [Fundamentos de JavaScript 💻](#Fundamentos-de-JavaScript)
 
 5. [Criando sua Primeira Página Web 🌐](#Criando-sua-Primeira-Página-Web)
