@@ -31,17 +31,57 @@
     - Estilo Externo
   - Exercícios
 4. [Fundamentos de JavaScript 💻](#Fundamentos-de-JavaScript)
-
+  - Introdução ao JavaScript
+    - História do JavaScript
+  - Sintaxe Básica e Variáveis
+    - Declaração de Variáveis
+    - Tipos de Dados
+  - Operadores e Estruturas de Controle
+    - Operadores Aritiméticos e de Comparação
+    - Estruturas de Controle
+  - Integrando JavaScript ao HTML
+    - Script Inline
+    - Script Externo
+  - Exercícios
 5. [Criando sua Primeira Página Web 🌐](#Criando-sua-Primeira-Página-Web)
-
+  - Estrutura Básica da Página
+  - Adicionando e Estilizando Texto
+  - Introduzindo Interatividade com JavaScript
+  - Exercícios
 6. [Trabalhando com Imagens e Links 🌐📸🔗](#Trabalhando-com-Imagens-e-Links)
-
+  - Inserindo Imagens
+    - Atributos da Tag `<img>`
+  - Criando Links
+    - Atributos da Tag `<a>`
+  - Estilizando Imagens e Links com CSS
+    - Estilizando Imagens
+    - Estilizando Links
+  - Exemplos Práticos
+  - Exercícios
 7. [Estilizando a Página com CSS 🎨](#Estilizando-a-Página-com-CSS)
-
+  - Box Model
+    - Estrutura do Box Model
+  - Backgrounds (Fundos)
+    - `background: color`
+    - `background: image`
+    - `background: grandient`
+  - Layout Básico com Display
+    - `display: block`
+    - `display: inline`
+    - `display: inline-block`
+    - `display: none`
+  - Exercícios
 8. [Elementos de Formulário em HTML 📝](#Elementos-de-Formulário-em-HTML)
-
+  - Estrutura do Formulário
+  - Elementos de Entrada (input)
+    - Tipos Comuns de Input
+  - Elementos de Texto Longo
+  - Botões
+  - Listas de Opções (Select)
+  - Validação Básica com HTML5
+  - Exercicios
 9. [Projeto 1: Página de Perfil 🌟](#Projeto-1-Página-de-Perfil)
-
+  - Estrutura HTML da Página
 10. [Layout Responsivo 📱💻](#Layout-Responsivo)
 
 11. [Elementos Semânticos e Acessibilidade 🌍](#Elementos-Semânticos-e-Acessibilidade)
