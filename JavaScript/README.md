@@ -614,8 +614,7 @@ document.getElementById('alertButton').addEventListener('click', function() {
 
 Imagens são elementos essenciais em páginas web, pois ajudam a ilustrar e complementar o conteúdo textual. Para inserir imagens em um documento HTML, utilizamos a tag `<img>`. A tag `<img>` é um elemento vazio, o que significa que não possui uma tag de fechamento.
 
-#### **Atributos da Tag** 
-**`<img>`**
+#### **Atributos da Tag <img>**
 
 - **`src`**: Especifica o caminho da imagem. Pode ser uma URL ou o caminho para um arquivo.
 - **`alt`**: Fornece um texto alternativo para a imagem, que é exibido se a imagem não puder ser carregada e é importante para acessibilidade.
@@ -630,27 +629,721 @@ Exemplo de uso:
 
 Links permitem a navegação entre diferentes páginas e recursos na web. Para criar links, utilizamos a tag `<a>`, que é conhecida como âncora.
 
-#### **Atributos da Tag**
-**`<a>`**
+#### **Atributos da Tag <a>**
 
 - **`href`**: Especifica o destino do link. Pode ser um URL absoluto ou relativo.
 - **`target`**: Define onde abrir o link. O valor `_blank` abre o link em uma nova aba.
 
+Exemplo de uso:
+
+```html
+<a href="<https://www.example.com>" target="_blank">Visite o Example</a>
+```
+
+### **Estilizando Imagens e Links com CSS 🎨**
+
+Assim como outros elementos HTML, imagens e links podem ser estilizados usando CSS para melhorar sua aparência e interação.
+
+#### **Estilizando Imagens**
+
+Podemos controlar a largura, altura, bordas e outros aspectos das imagens usando CSS.
+
+```css
+img {
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+```
+
+#### **Estilizando Links**
+
+Os links podem ser estilizados para alterar sua cor, sublinhado e outros estados (como hover, active).
+
+```css
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2c3e50;
+    text-decoration: underline;
+}
+```
+​
+### **Exemplos Práticos 🌟​**
+Vamos combinar esses conceitos em um exemplo prático:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trabalhando com Imagens e Links</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Imagens e Links</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Galeria de Imagens</h2>
+            <img src="imagens/paisagem1.jpg" alt="Paisagem 1">
+            <img src="imagens/paisagem2.jpg" alt="Paisagem 2">
+            <img src="imagens/paisagem3.jpg" alt="Paisagem 3">
+        </section>
+        <section>
+            <h2>Links Úteis</h2>
+            <p>Confira os seguintes recursos:</p>
+            <ul>
+                <li><a href="<https://www.example.com>" target="_blank">Example</a></li>
+                <li><a href="<https://www.google.com>" target="_blank">Google</a></li>
+                <li><a href="<https://www.wikipedia.org>" target="_blank">Wikipedia</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Imagens e Links</p>
+    </footer>
+</body>
+</html>
+```
+
+No arquivo `styles.css`:
+
+```css
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2c3e50;
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+```
+
+### **Exercícios 📝**
+
+1. Adicione uma nova imagem à sua página e estilize-a para ter uma borda arredondada e uma sombra.
+2. Crie um link que abra um documento PDF em uma nova aba.
+3. Adicione uma lista de links para seus sites favoritos e estilize-os para mudar de cor quando o mouse passar por cima.
+4. Use uma imagem como link para outra página ou site.
+5. Crie uma galeria de imagens com pelo menos quatro imagens e estilize-as para ficarem alinhadas em duas colunas.
+
 [⬆️ Voltar para o Início](#Índice)
 
-## Estilizando a Página com CSS
+## **Estilizando a Página com CSS**
+
+### **Box Model 📦**
+
+O modelo de caixa (Box Model) é um conceito fundamental em CSS que descreve como os elementos são renderizados no navegador. Cada elemento é representado como uma caixa retangular, composta por quatro áreas principais: conteúdo, preenchimento (padding), borda (border) e margem (margin).
+
+#### **Estrutura do Box Model**
+
+1. **Conteúdo (Content)**: A área onde o texto e as imagens são exibidos.
+2. **Preenchimento (Padding)**: Espaço entre o conteúdo e a borda. Pode ser usado para adicionar espaço interno ao elemento.
+3. **Borda (Border)**: A borda ao redor do conteúdo e do preenchimento. Pode ser estilizada com várias propriedades.
+4. **Margem (Margin)**: Espaço externo ao redor da borda. Pode ser usado para criar espaço entre elementos.
+
+Exemplo visual do Box Model:
+
+```css
+div {
+    width: 200px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 10px;
+}
+
+```
+
+### **Backgrounds (Fundos) 🎨​**
+
+CSS permite definir vários tipos de fundos para os elementos, como cores, imagens, e gradientes.
+
+#### Background Color
+
+A propriedade `background-color` define a cor de fundo de um elemento.
+
+```css
+body {
+    background-color: #f0f0f0;
+}
+```
+​
+#### **Background Image**
+
+A propriedade `background-image` permite definir uma imagem de fundo para um elemento.
+
+```css
+div {
+    background-image: url('path/to/image.jpg');
+    background-size: cover; /* Para cobrir todo o elemento */
+    background-repeat: no-repeat; /* Para evitar repetição da imagem */
+}
+```
+
+#### **Background Gradient**
+
+CSS3 introduziu gradientes como fundos, permitindo transições suaves entre cores.
+
+```css
+div {
+    background: linear-gradient(to right, red, yellow);
+}
+
+```
+
+### **Layout Básico com Display 🖥️**
+
+A propriedade `display` controla o comportamento de renderização de um elemento. Os valores mais comuns são `block`, `inline`, `inline-block`, e `none`.
+
+#### **Display Block**
+
+Elementos de bloco ocupam toda a largura disponível e começam em uma nova linha.
+
+```css
+div {
+    display: block;
+}
+
+```
+
+#### **Display Inline**
+
+Elementos inline ocupam apenas a largura necessária e podem aparecer na mesma linha.
+
+```css
+span {
+    display: inline;
+}
+```
+​
+#### **Display Inline-Block**
+
+Elementos inline-block combinam características dos elementos block e inline, permitindo definir a largura e altura, mas ainda podem aparecer na mesma linha.
+
+```css
+div {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+```
+
+#### **Display None**
+
+Esconde o elemento completamente.
+
+```css
+div {
+    display: none;
+}
+
+```
+
+### **Exercícios 📝**
+
+1. Crie um elemento `<div>` e aplique uma cor de fundo, preenchimento, borda e margem. Observe como essas propriedades afetam a renderização do elemento.
+2. Adicione uma imagem de fundo a um elemento e ajuste suas propriedades para cobrir todo o elemento sem repetição.
+3. Use um gradiente linear como fundo de um cabeçalho (`<header>`).
+4. Altere a propriedade `display` de vários elementos para ver como eles se comportam como `block`, `inline`, e `inline-block`.
+5. Crie um layout simples com três caixas lado a lado usando `display: inline-block`.
 
 [⬆️ Voltar para o Início](#Índice)
 
-## Elementos de Formulário em HTML
+## **Elementos de Formulário em HTML**
+
+Os formulários são componentes essenciais em páginas web, permitindo a coleta de dados dos usuários. HTML fornece uma variedade de elementos de formulário para criar interfaces interativas.
+
+### **Estrutura do Formulário**
+
+Um formulário HTML é criado usando a tag `<form>`, que agrupa elementos de entrada de dados. A tag `<form>` possui atributos importantes:
+
+- **`action`**: Especifica a URL para onde os dados do formulário serão enviados.
+- **`method`**: Define o método HTTP a ser usado (GET ou POST).
+
+Exemplo básico de formulário:
+
+```html
+<form action="/submit" method="post">
+    <!-- Elementos do formulário -->
+</form>
+```
+
+### **Elementos de Entrada (Input)**
+
+A tag `<input>` é usada para criar diferentes tipos de campos de entrada de dados. O atributo `type` define o tipo de entrada.
+
+#### **Tipos Comuns de Input**
+
+- **`text:`** Campo de texto de linha única.
+```html
+<label for="nome">Nome:</label>
+<input type="text" id="nome" name="nome">
+```
+
+- **`email:`** Campo de texto para endereços de email.
+```html
+<label for="email">Email:</label>
+<input type="email" id="email" name="email">
+```
+
+- **`password:`** Campo de texto para senhas.
+```html
+<label for="senha">Senha:</label>
+<input type="password" id="senha" name="senha">
+```
+
+- **`checkbox:`** Caixa de seleção.
+```html
+<label for="aceito">Aceito os termos:</label>
+<input type="checkbox" id="aceito" name="aceito">
+```
+
+- **`radio`**: Botão de opção.
+    
+    ```html
+    <label for="genero">Masculino</label>
+    <input type="radio" id="generoM" name="genero" value="masculino">
+    <label for="genero">Feminino</label>
+    <input type="radio" id="generoF" name="genero" value="feminino">
+    ```
+    
+- **`submit`**: Botão de envio do formulário.
+    
+    ```html
+    <input type="submit" value="Enviar">
+    ```
+    
+
+### **Elementos de Texto Longo**
+
+Para entrada de texto mais longa, usamos a tag `<textarea>`.
+
+```html
+<label for="mensagem">Mensagem:</label>
+<textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea>
+```
+
+### **Botões**
+
+Botões podem ser criados com a tag `<button>`, que pode conter texto ou elementos HTML.
+```html
+<button type="submit">Enviar</button>
+<button type="button" onclick="alert('Clicado!')">Clique-me</button>
+```
+​
+### **Listas de Opções (Select)**
+
+Para criar listas suspensas, usamos a tag `<select>`, que contém várias tags `<option>`.
+```html
+<label for="pais">País:</label>
+<select id="pais" name="pais">
+    <option value="brasil">Brasil</option>
+    <option value="eua">Estados Unidos</option>
+    <option value="uk">Reino Unido</option>
+</select>
+```
+
+### **Validação Básica com HTML5**
+
+HTML5 introduziu novos atributos para validação de formulários.
+
+- **`required`**: Torna o campo obrigatório.
+- **`pattern`**: Define um padrão regex que o campo deve seguir.
+- **`min`** e **`max`**: Define valores mínimo e máximo para campos numéricos.
+
+Exemplo de campo obrigatório:
+
+```html
+<label for="username">Usuário:</label>
+<input type="text" id="username" name="username" required>
+```
+
+### **Exercícios 📝**
+
+1. Crie um formulário HTML simples com campos de texto, email e senha, e um botão de envio.
+2. Adicione uma caixa de seleção para termos e condições e um botão de envio que só funciona se a caixa de seleção estiver marcada.
+3. Crie um campo de texto para números de telefone que aceite apenas um padrão específico usando o atributo `pattern`.
+4. Adicione uma lista suspensa (`<select>`) ao formulário com pelo menos três opções e defina uma delas como padrão.
+5. Crie um formulário que inclua botões de rádio para selecionar o gênero e um botão de envio.
 
 [⬆️ Voltar para o Início](#Índice)
 
 ## Projeto 1: Página de Perfil
 
+Neste projeto, você aplicará os conceitos aprendidos sobre HTML e CSS para criar uma página de perfil pessoal. O objetivo é construir uma página completa e estilizada que mostre informações pessoais, uma foto de perfil e links para redes sociais.
+
+### **Estrutura HTML da Página**
+
+Começaremos criando a estrutura HTML básica da página de perfil. Esta estrutura incluirá um cabeçalho, uma seção principal com detalhes do perfil e um rodapé.
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meu Perfil</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>João Silva</h1>
+    </header>
+    <main>
+        <section class="perfil">
+            <img src="perfil.jpg" alt="Foto de João Silva" class="foto-perfil">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Eu sou João Silva, um desenvolvedor web apaixonado por criar experiências interativas e funcionais na web.</p>
+            <h3>Contato</h3>
+            <ul>
+                <li>Email: <a href="mailto:joao@example.com">joao@example.com</a></li>
+                <li>Telefone: (11) 1234-5678</li>
+            </ul>
+            <h3>Redes Sociais</h3>
+            <ul>
+                <li><a href="<https://twitter.com/joao>" target="_blank">Twitter</a></li>
+                <li><a href="<https://linkedin.com/in/joao>" target="_blank">LinkedIn</a></li>
+                <li><a href="<https://github.com/joao>" target="_blank">GitHub</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 João Silva</p>
+    </footer>
+</body>
+</html>
+```
+
+### **Estilização Avançada com CSS 🎨**
+
+Agora, vamos estilizar a página de perfil usando CSS. Vamos definir estilos para o layout, tipografia, imagens e links.
+
+```css
+/* Resetando margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 1em 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+main {
+    width: 100%;
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.perfil {
+    text-align: center;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #333;
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    margin-top: 20px;
+    color: #333;
+}
+
+p, ul {
+    text-align: left;
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+```
+
+### **Adicionando Imagens e Links 📸🔗**
+
+Certifique-se de incluir uma imagem de perfil (`perfil.jpg`) no mesmo diretório do arquivo HTML. Use links apropriados para suas redes sociais e email.
+
+### **Exercícios 📝**
+
+1. Modifique o HTML para incluir uma breve descrição sobre suas habilidades e interesses.
+2. Adicione uma seção para listar seus projetos recentes, incluindo links para cada projeto.
+3. Estilize a seção de projetos recentes usando CSS para destacá-la visualmente.
+4. Adicione um botão que, ao ser clicado, exiba uma mensagem de boas-vindas usando JavaScript.
+5. Use media queries para tornar a página responsiva, ajustando o layout para diferentes tamanhos de tela.
+
 [⬆️ Voltar para o Início](#Índice)
 
 ## Layout Responsivo
+
+O design responsivo é uma abordagem de design que garante que as páginas web funcionem bem em uma variedade de dispositivos e tamanhos de tela. Através do uso de CSS, podemos criar layouts flexíveis e adaptáveis.
+
+## 10.1 Introdução ao Design Responsivo 🌐
+
+O design responsivo utiliza consultas de mídia (media queries) e unidades flexíveis para criar um layout que se ajuste automaticamente ao tamanho da tela. Isso melhora a experiência do usuário, independentemente do dispositivo que eles estão usando.
+
+### 10.1.1 Unidades Flexíveis
+
+- **`%`**: Percentual relativo ao elemento pai.
+    
+    ```css
+    width: 50%; /* 50% da largura do elemento pai */
+    
+    ```
+    
+- **`em`**: Relativo ao tamanho da fonte do elemento pai.
+    
+    ```css
+    padding: 1em; /* igual ao tamanho da fonte do elemento pai */
+    
+    ```
+    
+- **`rem`**: Relativo ao tamanho da fonte do elemento raiz (`<html>`).
+    
+    ```css
+    margin: 2rem; /* igual a duas vezes o tamanho da fonte do elemento raiz */
+    
+    ```
+- **`vw` e `vh`:** Viewport width e height, porcentagem da largura e altura da janela de visualização.
+```css
+width: 50vw; /* 50% da largura da janela de visualização */
+height: 100vh; /* 100% da altura da janela de visualização */
+```
+​
+### **Media Queries 🖥️📱​**
+
+As consultas de mídia são usadas para aplicar estilos CSS com base nas características da tela, como largura, altura, resolução e orientação. A sintaxe básica de uma media query é:
+```css
+@media (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+```
+
+Neste exemplo, a cor de fundo do corpo será `lightblue` em telas com largura máxima de 600px.
+
+#### **Exemplos de Media Queries**
+
+- **Alterando layout para telas pequenas:**
+```css
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
+```
+​
+- **Ajustando tamanhos de fonte:**
+```css
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+}
+```
+
+### **Flexbox Básico 🧩​**
+
+Flexbox é um módulo de layout em CSS que fornece uma maneira eficiente de distribuir espaço e alinhar itens em um contêiner, mesmo quando o tamanho dos itens é desconhecido ou dinâmico.
+
+#### **Container Flex**
+
+Para usar o Flexbox, defina o contêiner como um elemento flexível:
+```css
+.container {
+    display: flex;
+}
+```
+​
+#### **Direção Flexível**
+
+A propriedade `flex-direction` define a direção na qual os itens flexíveis são colocados no contêiner flexível.
+
+- **`row`**: Direção padrão, os itens são colocados da esquerda para a direita.
+```css
+.container {
+    flex-direction: row;
+}
+```
+
+- **`column`**: Os itens são colocados de cima para baixo.
+```css
+.container {
+    flex-direction: column;
+}
+```
+​
+#### **Alinhamento e Justificação**
+
+Flexbox também permite alinhar e justificar itens no contêiner flexível.
+
+- **`justify-content`**: Alinha itens ao longo do eixo principal.
+```css
+.container {
+    justify-content: center; /* alinha itens no centro */
+}
+```
+
+- **`align-items`**: Alinha itens ao longo do eixo transversal.
+```css
+.container {
+    align-items: center; /* alinha itens no centro do eixo transversal */
+}
+```
+
+### **Exemplo Prático 🌟​**
+
+Vamos criar um layout responsivo usando Flexbox e media queries.
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Layout Responsivo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site Responsivo</h1>
+    </header>
+    <main class="container">
+        <section class="conteudo">
+            <h2>Conteúdo Principal</h2>
+            <p>Este é o conteúdo principal da página.</p>
+        </section>
+        <aside class="sidebar">
+            <h2>Barra Lateral</h2>
+            <p>Esta é a barra lateral com informações adicionais.</p>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2024 Meu Site Responsivo</p>
+    </footer>
+</body>
+</html>
+```
+
+No arquivo `styles.css`:
+
+```css
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.conteudo, .sidebar {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+/* Media Query para telas menores */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
+```
+
+### **Exercícios 📝**
+
+1. Crie uma página HTML com um contêiner Flexbox que distribua três seções horizontalmente em telas grandes e verticalmente em telas pequenas.
+2. Adicione media queries ao seu projeto de perfil para ajustar o layout em telas menores, garantindo que a foto de perfil e o conteúdo se ajustem corretamente.
+3. Utilize unidades flexíveis (`%`, `em`, `rem`, `vw`, `vh`) para definir larguras, alturas e espaçamentos em uma página de exemplo.
+4. Experimente diferentes propriedades Flexbox, como `justify-content` e `align-items`, para criar layouts variados.
+5. Crie um layout responsivo para um blog com uma seção de conteúdo principal e uma barra lateral que se ajusta em diferentes tamanhos de tela.
 
 [⬆️ Voltar para o Início](#Índice)
 
