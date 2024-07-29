@@ -82,6 +82,7 @@
   - Exercicios
 9. [Projeto 1: Página de Perfil 🌟](#Projeto-1-Página-de-Perfil)
   - Estrutura HTML da Página
+  - Estilização Avançada com CSS
 10. [Layout Responsivo 📱💻](#Layout-Responsivo)
 
 11. [Elementos Semânticos e Acessibilidade 🌍](#Elementos-Semânticos-e-Acessibilidade)
@@ -1347,43 +1348,1807 @@ header, footer {
 
 [⬆️ Voltar para o Início](#Índice)
 
-## Elementos Semânticos e Acessibilidade
+## **Elementos Semânticos e Acessibilidade**
+
+### **Elementos Semânticos**
+
+Os elementos semânticos do HTML fornecem significado ao conteúdo da página, tornando-a mais compreensível para os navegadores, motores de busca e tecnologias assistivas. Eles ajudam a estruturar o conteúdo de maneira lógica e coerente.
+
+#### **Elementos Comuns**
+
+- **`<header>`**: Representa uma seção de cabeçalho de um documento ou seção.
+    
+    ```html
+    <header>
+        <h1>Meu Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    ```
+    
+- **`<nav>`**: Representa uma seção de navegação.
+    
+    ```html
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+    
+    ```
+    
+- **`<section>`**: Define uma seção genérica de conteúdo.
+    
+    ```html
+    <section>
+        <h2>Seção Principal</h2>
+        <p>Conteúdo da seção.</p>
+    </section>
+    
+    ```
+    
+- **`<article>`**: Representa um conteúdo independente e auto-suficiente.
+    
+    ```html
+    <article>
+        <h2>Título do Artigo</h2>
+        <p>Conteúdo do artigo.</p>
+    </article>
+    
+    ```
+    
+- **`<aside>`**: Define conteúdo lateral que é tangencialmente relacionado ao conteúdo principal.
+    
+    ```html
+    <aside>
+        <h2>Barra Lateral</h2>
+        <p>Conteúdo relacionado.</p>
+    </aside>
+    
+    ```
+    
+- **`<footer>`**: Representa o rodapé de um documento ou seção.
+    
+    ```html
+    <footer>
+        <p>&copy; 2024 Meu Site</p>
+    </footer>
+    
+    ```
+    
+- **`<main>`**: Representa o conteúdo principal de um documento.
+    
+    ```html
+    <main>
+        <section>
+            <h2>Conteúdo Principal</h2>
+            <p>Texto do conteúdo principal.</p>
+        </section>
+    </main>
+    
+    ```
+    
+- **`<figure>` e `<figcaption>`**: Usados para marcar uma figura e sua legenda.
+    
+    ```html
+    <figure>
+        <img src="imagem.jpg" alt="Descrição da imagem">
+        <figcaption>Legenda da imagem</figcaption>
+    </figure>
+    ```
+
+### **Importância da Acessibilidade**
+
+Acessibilidade web significa criar conteúdo que pode ser acessado e utilizado por todos, incluindo pessoas com deficiências. Isso não só é essencial para a inclusão, mas também melhora a usabilidade geral do site.
+
+#### **Princípios de Acessibilidade**
+
+1. **Perceptível**: O conteúdo deve ser apresentado de maneira que todos os usuários possam perceber, incluindo aqueles com deficiências visuais ou auditivas.
+    - Use texto alternativo (`alt`) para imagens.
+    - Certifique-se de que há contraste suficiente entre o texto e o fundo.
+2. **Operável**: Os componentes da interface e a navegação devem ser utilizáveis por todos os usuários.
+    - Certifique-se de que todas as funcionalidades estão disponíveis através do teclado.
+    - Forneça formas de navegação claras e consistentes.
+3. **Compreensível**: A informação e a operação da interface do usuário devem ser compreensíveis.
+    - Use uma linguagem clara e simples.
+    - Forneça instruções e feedback adequados.
+4. **Robusto**: O conteúdo deve ser robusto o suficiente para ser interpretado de forma confiável por uma ampla variedade de agentes de usuário, incluindo tecnologias assistivas.
+    - Use código HTML semântico e bem estruturado.
+    - Certifique-se de que a página é compatível com tecnologias assistivas.
+
+### **Atributos ARIA (Accessible Rich Internet Applications)**
+
+ARIA é um conjunto de atributos especiais que podem ser adicionados ao HTML para fornecer informações sobre o comportamento e a estrutura dos elementos da interface do usuário.
+
+#### **Exemplos de Atributos ARIA**
+
+- **`aria-label`**: Fornece um rótulo acessível para um elemento.
+    
+    ```html
+    <button aria-label="Fechar">X</button>
+    
+    ```
+    
+- **`aria-hidden`**: Indica que um elemento é oculto para tecnologias assistivas.
+    
+    ```html
+    <div aria-hidden="true">Este conteúdo está oculto</div>
+    
+    ```
+    
+- **`role`**: Define um papel específico para um elemento.
+    
+    ```html
+    <div role="navigation">Menu de Navegação</div>
+    
+    ```
+    
+- **`aria-live`**: Indica que um elemento será atualizado dinamicamente.
+    
+    ```html
+    <div aria-live="polite">Atualizações em tempo real aparecerão aqui</div>
+    
+    ```
+    
+
+### **Exercícios 📝**
+
+1. Reestruture uma página HTML existente para usar elementos semânticos (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>`).
+2. Adicione atributos ARIA a um formulário HTML para melhorar a acessibilidade.
+3. Crie um layout básico de blog usando elementos semânticos e adicione uma seção de artigos relacionados usando `<aside>`.
+4. Aplique princípios de acessibilidade a uma página, certificando-se de que todos os elementos são perceptíveis, operáveis, compreensíveis e robustos.
+5. Use ferramentas de validação de acessibilidade (como WAVE ou Lighthouse) para testar e melhorar a acessibilidade de uma página web.
 
 [⬆️ Voltar para o Início](#Índice)
 
-## Projeto 2: Blog Pessoal
+## **Projeto 2: Blog Pessoal**
+
+Neste projeto, você aplicará os conceitos aprendidos sobre HTML, CSS e JavaScript para criar um blog pessoal. O objetivo é construir uma página completa e estilizada que inclua posts de blog, uma barra lateral e navegação básica.
+
+### **Estrutura HTML do Blog**
+
+Começaremos criando a estrutura HTML básica do blog. Esta estrutura incluirá um cabeçalho, uma seção principal com posts de blog, uma barra lateral e um rodapé.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meu Blog Pessoal</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Blog de João Silva</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="posts">
+            <article>
+                <h2>Meu Primeiro Post</h2>
+                <p class="data">Publicado em 01/01/2024</p>
+                <p>Este é o conteúdo do meu primeiro post no blog. Estou animado para compartilhar minhas ideias e experiências com vocês.</p>
+            </article>
+            <article>
+                <h2>Outro Post Interessante</h2>
+                <p class="data">Publicado em 02/01/2024</p>
+                <p>Este é o conteúdo de outro post interessante. Espero que vocês gostem!</p>
+            </article>
+        </section>
+        <aside class="sidebar">
+            <h2>Sobre Mim</h2>
+            <p>Eu sou João Silva, um desenvolvedor web apaixonado por criar experiências interativas e funcionais na web.</p>
+            <h2>Links Úteis</h2>
+            <ul>
+                <li><a href="<https://twitter.com/joao>" target="_blank">Twitter</a></li>
+                <li><a href="<https://linkedin.com/in/joao>" target="_blank">LinkedIn</a></li>
+                <li><a href="<https://github.com/joao>" target="_blank">GitHub</a></li>
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2024 João Silva</p>
+    </footer>
+</body>
+</html>
+
+```
+
+### **Estilização com CSS 🎨**
+
+Agora, vamos estilizar o blog pessoal usando CSS. Vamos definir estilos para o layout, tipografia, imagens e links.
+
+```css
+/* Resetando margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 1em 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+
+.posts {
+    flex: 3;
+    margin-right: 20px;
+}
+
+.sidebar {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.posts article {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.posts article h2 {
+    color: #333;
+}
+
+.posts article .data {
+    font-size: 0.9em;
+    color: #777;
+}
+
+footer {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px 0;
+}
+```
+
+### **Adicionando Elementos Semânticos 🌟**
+
+Certifique-se de usar elementos semânticos corretamente para melhorar a acessibilidade e SEO.
+
+### **Exercícios 📝**
+
+1. Adicione mais posts ao blog, cada um com um título, data e conteúdo diferentes.
+2. Crie uma nova seção na barra lateral que liste categorias ou tags dos posts.
+3. Adicione uma imagem a cada post e estilize-as para se ajustarem ao layout usando CSS.
+4. Use media queries para garantir que o layout do blog se ajuste corretamente em dispositivos móveis.
+5. Adicione um formulário de contato no rodapé e estilize-o para se ajustar ao design do blog.
 
 [⬆️ Voltar para o Início](#Índice)
 
 ## Manipulação Avançada do DOM
 
+A manipulação do Document Object Model (DOM) é uma habilidade essencial para desenvolvedores web. O DOM é uma interface de programação que permite acessar e manipular a estrutura de documentos HTML e XML. Com JavaScript, você pode alterar o conteúdo, estrutura e estilo de uma página web dinamicamente.
+
+## 13.1 Seleção de Múltiplos Elementos
+
+Para manipular elementos do DOM, primeiro você precisa selecioná-los. Existem várias maneiras de fazer isso em JavaScript.
+
+- **`getElementById`**
+
+Seleciona um elemento pelo seu ID.
+
+```jsx
+let elemento = document.getElementById("meuId");
+```
+
+ - **`getElementsByClassName`**
+
+Seleciona todos os elementos que têm uma determinada classe. Retorna uma coleção de elementos.
+
+```jsx
+let elementos = document.getElementsByClassName("minhaClasse");
+```
+
+- **`getElementsByTagName`**
+
+Seleciona todos os elementos com um determinado nome de tag. Retorna uma coleção de elementos.
+
+```jsx
+let paragrafos = document.getElementsByTagName("p");
+```
+
+- **`querySelector` e `querySelectorAll`**
+
+Seleciona elementos usando seletores CSS. `querySelector` retorna o primeiro elemento que corresponde ao seletor, enquanto `querySelectorAll` retorna todos os elementos correspondentes.
+
+```jsx
+let elemento = document.querySelector(".minhaClasse");
+let elementos = document.querySelectorAll("p");
+```
+
+### **Modificação de Atributos e Classes**
+
+Você pode modificar atributos e classes de elementos DOM para alterar sua aparência e comportamento.
+
+#### **Modificação de Atributos**
+
+Use `setAttribute` e `getAttribute` para modificar e obter atributos de um elemento.
+
+```jsx
+let link = document.querySelector("a");
+link.setAttribute("href", "<https://www.novo-url.com>");
+let url = link.getAttribute("href");
+```
+
+#### **Manipulação de Classes**
+
+Use `classList` para adicionar, remover e verificar classes de um elemento.
+
+```jsx
+let elemento = document.querySelector(".minhaClasse");
+elemento.classList.add("novaClasse");
+elemento.classList.remove("minhaClasse");
+let possuiClasse = elemento.classList.contains("novaClasse");
+```
+
+### **Criação e Remoção de Elementos**
+
+Você pode criar novos elementos e removê-los dinamicamente.
+
+#### **Criação de Elementos**
+
+Use `createElement` para criar um novo elemento e `appendChild` para adicioná-lo ao DOM.
+
+```jsx
+let novoParagrafo = document.createElement("p");
+novoParagrafo.textContent = "Este é um novo parágrafo.";
+document.body.appendChild(novoParagrafo);
+
+```
+
+#### **Remoção de Elementos**
+
+Use `removeChild` para remover um elemento do DOM.
+
+```jsx
+let elementoParaRemover = document.getElementById("meuId");
+elementoParaRemover.parentNode.removeChild(elementoParaRemover);
+
+```
+
+### **Manipulação de Eventos**
+
+A manipulação de eventos é crucial para criar interatividade em páginas web.
+
+#### **Adicionando Eventos**
+
+Use `addEventListener` para adicionar eventos a elementos.
+
+```jsx
+let botao = document.querySelector("button");
+botao.addEventListener("click", function() {
+    alert("Botão clicado!");
+});
+
+```
+
+#### **Eventos Comuns**
+
+- **`click`**: Disparado quando um elemento é clicado.
+- **`mouseover`**: Disparado quando o cursor do mouse passa sobre um elemento.
+- **`mouseout`**: Disparado quando o cursor do mouse sai de um elemento.
+- **`keyup`**: Disparado quando uma tecla é liberada.
+
+### **Exercícios 📝**
+
+1. Selecione todos os elementos `<p>` em uma página e altere seu texto para "Texto alterado".
+2. Adicione uma classe "destacado" a todos os elementos `<li>` em uma lista não ordenada.
+3. Crie um novo item de lista (`<li>`) e adicione-o a uma lista existente na página.
+4. Adicione um evento de clique a um botão que altera a cor de fundo da página quando clicado.
+5. Crie uma função que remova um elemento específico da página quando um botão é clicado.
+
 [⬆️ Voltar para o Início](#Índice)
 
-## Projeto 3: Página de Portfólio (HTML e CSS)
+### **Projeto 3: Página de Portfólio (HTML e CSS)**
+
+Neste projeto, você aplicará os conceitos aprendidos sobre HTML e CSS para criar uma página de portfólio pessoal. O objetivo é construir uma página completa e estilizada que mostre seus trabalhos, habilidades e informações de contato.
+
+### **Estrutura HTML do Portfólio**
+
+Começaremos criando a estrutura HTML básica da página de portfólio. Esta estrutura incluirá um cabeçalho, uma seção principal com detalhes do portfólio e um rodapé.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>João Silva</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#trabalhos">Trabalhos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Eu sou João Silva, um desenvolvedor web apaixonado por criar experiências interativas e funcionais na web.</p>
+        </section>
+        <section id="trabalhos">
+            <h2>Meus Trabalhos</h2>
+            <div class="trabalho">
+                <img src="trabalho1.jpg" alt="Trabalho 1">
+                <h3>Projeto 1</h3>
+                <p>Descrição do Projeto 1.</p>
+            </div>
+            <div class="trabalho">
+                <img src="trabalho2.jpg" alt="Trabalho 2">
+                <h3>Projeto 2</h3>
+                <p>Descrição do Projeto 2.</p>
+            </div>
+            <div class="trabalho">
+                <img src="trabalho3.jpg" alt="Trabalho 3">
+                <h3>Projeto 3</h3>
+                <p>Descrição do Projeto 3.</p>
+            </div>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 João Silva</p>
+    </footer>
+</body>
+</html>
+
+```
+
+### **Estilização Avançada com CSS 🎨**
+
+Agora, vamos estilizar a página de portfólio usando CSS. Vamos definir estilos para o layout, tipografia, imagens e links.
+
+```css
+/* Resetando margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.trabalho {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.trabalho img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.trabalho h3 {
+    margin-top: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+```
+
+### **Adicionando Elementos Gráficos e Animações Simples 🌟**
+
+Podemos adicionar animações simples para melhorar a interação do usuário.
+
+#### **Animações com CSS**
+
+Adicione a seguinte animação ao CSS para animar os projetos na seção "Meus Trabalhos":
+
+```css
+.trabalho {
+	opacity: 0.5;
+	transform: translateY(20px);
+	transition: opacity 0.6s, transform 0.6s;
+}
+
+.trabalho:hover {
+	opacity: 1;
+	transform: translateY(0);
+}
+```
+
+#### **Exercícios 📝**
+
+1. Adicione mais projetos à seção "Meus Trabalhos", cada um com uma imagem, título e descrição.
+2. Crie uma seção adicional no portfólio para listar suas habilidades, usando uma lista não ordenada.
+3. Adicione ícones de redes sociais ao rodapé e estilize-os para que fiquem alinhados horizontalmente.
+4. Utilize media queries para garantir que o layout do portfólio se ajuste corretamente em dispositivos móveis.
+5. Adicione uma animação ao formulário de contato, para que ele deslize de cima quando a página for carregada.
 
 [⬆️ Voltar para o Início](#Índice)
 
-## Interatividade Básica com JavaScript
+## **Interatividade Básica com JavaScript**
+
+JavaScript é uma ferramenta poderosa para adicionar interatividade às páginas web. Com ele, você pode manipular o DOM, responder a eventos do usuário e criar experiências dinâmicas.
+
+### **Manipulação de Eventos**
+
+Eventos são ações que ocorrem na página web que podem ser capturadas e manipuladas usando JavaScript. Alguns exemplos de eventos incluem cliques de mouse, pressionamento de teclas e carregamento de páginas.
+
+#### **Eventos de Clique (click)**
+
+Os eventos de clique são os mais comuns e são disparados quando um usuário clica em um elemento.
+```javascript
+let botao = document.querySelector("button");
+botao.addEventListener("click", function() {
+    alert("Botão clicado!");
+});
+```
+​
+#### **Eventos de Mouse (mouseover, mouseout)**
+
+Os eventos de mouse permitem responder quando o usuário passa o cursor sobre um elemento ou o retira.
+```javascript
+let elemento = document.querySelector(".meuElemento");
+
+elemento.addEventListener("mouseover", function() {
+    elemento.style.backgroundColor = "yellow";
+});
+
+elemento.addEventListener("mouseout", function() {
+    elemento.style.backgroundColor = "";
+});
+```
+​
+### **Manipulação de Formulários**
+
+A manipulação de formulários permite capturar e validar dados de entrada dos usuários.
+
+#### **Captura de Dados de Formulário**
+
+Você pode capturar os dados de um formulário usando eventos de submissão.
+```javascript
+let formulario = document.querySelector("form");
+formulario.addEventListener("submit", function(event) {
+    event.preventDefault(); // Previne o envio padrão do formulário
+    let nome = document.querySelector("#nome").value;
+    let email = document.querySelector("#email").value;
+    alert("Nome: " + nome + "\\nEmail: " + email);
+});
+```
+​
+#### **Validação de Formulário**
+
+Valide os dados de um formulário antes de enviá-los.
+```javascript
+formulario.addEventListener("submit", function(event) {
+    event.preventDefault();
+    let nome = document.querySelector("#nome").value;
+    let email = document.querySelector("#email").value;
+
+    if (nome === "" || email === "") {
+        alert("Por favor, preencha todos os campos.");
+    } else {
+        alert("Formulário enviado com sucesso!");
+        formulario.submit(); // Envia o formulário
+    }
+});
+```
+​
+### **Interações Básicas (Mostrar/Esconder Elementos)**
+
+Você pode mostrar ou esconder elementos dinamicamente usando JavaScript.
+```javascript
+let botaoMostrar = document.querySelector("#mostrar");
+let botaoEsconder = document.querySelector("#esconder");
+let caixa = document.querySelector(".caixa");
+
+botaoMostrar.addEventListener("click", function() {
+    caixa.style.display = "block";
+});
+
+botaoEsconder.addEventListener("click", function() {
+    caixa.style.display = "none";
+});
+```
+
+### **Exercícios 📝**
+
+1. Adicione um evento de clique a um botão que altera o texto de um parágrafo quando clicado.
+2. Crie um formulário com campos de nome, email e mensagem. Capture os dados do formulário e exiba-os em um alerta quando o formulário for enviado.
+3. Adicione validação ao formulário para garantir que todos os campos sejam preenchidos antes de permitir o envio.
+4. Adicione um botão que, quando clicado, mostre ou esconda uma seção de conteúdo na página.
+5. Crie um evento de mouseover que altera a cor de fundo de um elemento quando o mouse passa sobre ele e restaura a cor original quando o mouse sai.
 
 [⬆️ Voltar para o Início](#Índice)
 
-## Trabalhando com Listas e Tabelas
+## **Trabalhando com Listas e Tabelas**
+
+HTML oferece diversas tags para estruturar e apresentar dados em listas e tabelas. Essas tags são úteis para organizar informações de maneira clara e acessível.
+
+### **Criando Listas**
+
+Listas são usadas para agrupar itens relacionados. Existem dois tipos principais de listas em HTML: listas ordenadas (`<ol>`) e listas não ordenadas (`<ul>`).
+
+#### **Listas Não Ordenadas (<ul>)**
+
+Listas não ordenadas são usadas para itens que não têm uma ordem específica.
+
+```html
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>
+
+```
+
+#### **Listas Ordenadas (<ol>)**
+
+Listas ordenadas são usadas para itens que seguem uma ordem específica.
+
+```html
+<ol>
+    <li>Primeiro item</li>
+    <li>Segundo item</li>
+    <li>Terceiro item</li>
+</ol>
+
+```
+
+#### **Listas de Definição (<dl>)**
+
+Listas de definição são usadas para pares de termos e descrições, como glossários.
+
+```html
+<dl>
+    <dt>HTML</dt>
+    <dd>HyperText Markup Language</dd>
+    <dt>CSS</dt>
+    <dd>Cascading Style Sheets</dd>
+</dl>
+
+```
+
+### **Estrutura de Tabelas**
+
+Tabelas são usadas para apresentar dados tabulares. A estrutura básica de uma tabela é composta pelas tags `<table>`, `<tr>`, `<th>`, e `<td>`.
+
+#### **Estrutura Básica de uma Tabela**
+
+```html
+<table>
+    <tr>
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>Cidade</th>
+    </tr>
+    <tr>
+        <td>João</td>
+        <td>25</td>
+        <td>São Paulo</td>
+    </tr>
+    <tr>
+        <td>Maria</td>
+        <td>30</td>
+        <td>Rio de Janeiro</td>
+    </tr>
+</table>
+
+```
+
+#### **Cabeçalhos e Rodapés de Tabela**
+
+Você pode usar `<thead>` e `<tfoot>` para definir cabeçalhos e rodapés de tabela.
+```html
+<table>
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>João</td>
+            <td>25</td>
+            <td>São Paulo</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>30</td>
+            <td>Rio de Janeiro</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">Total de registros: 2</td>
+        </tr>
+    </tfoot>
+</table>
+```
+​
+#### **Mesclagem de Células**
+
+Use colspan e rowspan para mesclar células horizontalmente e verticalmente.
+```html
+<table>
+    <tr>
+        <th>Nome</th>
+        <th colspan="2">Informações</th>
+    </tr>
+    <tr>
+        <td>João</td>
+        <td>25</td>
+        <td>São Paulo</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Maria</td>
+        <td>30</td>
+        <td>Rio de Janeiro</td>
+    </tr>
+    <tr>
+        <td>35</td>
+        <td>Brasília</td>
+    </tr>
+</table>
+```
+​
+### **Estilizando Listas e Tabelas com CSS 🎨​**
+
+Você pode estilizar listas e tabelas para melhorar a aparência visual usando CSS.
+
+#### **Estilizando Listas**
+```css
+ul {
+    list-style-type: square; /* Define o estilo dos marcadores */
+    padding-left: 20px;
+}
+
+ol {
+    list-style-type: decimal; /* Define o estilo dos números */
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+```
+
+#### **Estilizando Tabelas**
+
+```css
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove espaçamento entre células */
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Zebra striping */
+}
+
+```
+
+### **Exercícios 📝**
+
+1. Crie uma lista não ordenada de suas frutas favoritas e estilize-a usando CSS para alterar os marcadores e o espaçamento.
+2. Crie uma lista ordenada dos passos para realizar uma tarefa específica e estilize-a com CSS.
+3. Crie uma tabela simples com pelo menos três colunas e três linhas de dados. Adicione cabeçalhos e um rodapé à tabela.
+4. Use `colspan` e `rowspan` para criar uma tabela com células mescladas.
+5. Estilize a tabela criada usando CSS, aplicando bordas, preenchimento e cores de fundo alternadas para as linhas.
+​
+
 
 [⬆️ Voltar para o Início](#Índice)
 
-## Projeto 4: Lista de Tarefas
+## **Projeto 4: Lista de Tarefas**
+
+Neste projeto, você aplicará os conceitos aprendidos sobre HTML, CSS e JavaScript para criar uma lista de tarefas interativa. O objetivo é construir uma página completa que permita adicionar, remover e marcar tarefas como concluídas.
+
+### **Estrutura HTML da Lista de Tarefas**
+
+Começaremos criando a estrutura HTML básica da lista de tarefas. Esta estrutura incluirá um cabeçalho, um campo de entrada para adicionar tarefas, um botão de envio e uma lista de tarefas.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Minha Lista de Tarefas</h1>
+    </header>
+    <main>
+        <section id="formulario-tarefa">
+            <input type="text" id="nova-tarefa" placeholder="Digite uma nova tarefa">
+            <button id="adicionar-tarefa">Adicionar Tarefa</button>
+        </section>
+        <section id="lista-tarefas">
+            <ul id="tarefas"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Lista de Tarefas</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+```
+
+### **Estilizando a Lista com CSS 🎨**
+
+Agora, vamos estilizar a lista de tarefas usando CSS. Vamos definir estilos para o layout, tipografia e interatividade dos itens da lista.
+
+```css
+/* Resetando margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+main {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+#formulario-tarefa {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#nova-tarefa {
+    flex: 1;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#adicionar-tarefa {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#adicionar-tarefa:hover {
+    background-color: #555;
+}
+
+#lista-tarefas ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#lista-tarefas li {
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tarefa-concluida {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.remover-tarefa {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remover-tarefa:hover {
+    background-color: darkred;
+}
+```
+
+### **Adicionando Interatividade com JavaScript 💻**
+
+Agora, vamos adicionar a funcionalidade de adicionar, remover e marcar tarefas como concluídas usando JavaScript.
+
+#### **Adicionar Tarefas**
+
+No arquivo `script.js`, adicione o seguinte código para capturar o evento de clique do botão "Adicionar Tarefa" e adicionar uma nova tarefa à lista.
+
+```jsx
+document.getElementById('adicionar-tarefa').addEventListener('click', function() {
+    let novaTarefa = document.getElementById('nova-tarefa').value;
+    if (novaTarefa.trim() !== "") {
+        let listaTarefas = document.getElementById('tarefas');
+
+        let li = document.createElement('li');
+        li.textContent = novaTarefa;
+
+        let botaoRemover = document.createElement('button');
+        botaoRemover.textContent = 'Remover';
+        botaoRemover.className = 'remover-tarefa';
+        botaoRemover.addEventListener('click', function() {
+            listaTarefas.removeChild(li);
+        });
+
+        li.appendChild(botaoRemover);
+        listaTarefas.appendChild(li);
+
+        document.getElementById('nova-tarefa').value = '';
+    }
+});
+
+```
+
+#### **Marcar Tarefas como Concluídas**
+
+Adicione um evento de clique aos itens da lista para marcar tarefas como concluídas.
+
+```jsx
+document.getElementById('tarefas').addEventListener('click', function(event) {
+    if (event.target.tagName === 'LI') {
+        event.target.classList.toggle('tarefa-concluida');
+    }
+});
+
+```
+
+### **Exercícios 📝**
+
+1. Adicione uma função para salvar as tarefas em LocalStorage, garantindo que as tarefas persistam após o recarregamento da página.
+2. Crie um botão para limpar todas as tarefas concluídas da lista.
+3. Adicione uma mensagem que aparece quando não há tarefas na lista.
+4. Estilize a lista de tarefas para que cada tarefa tenha um ícone de edição ao lado, permitindo que o usuário edite o texto da tarefa.
+5. Implemente uma função de pesquisa que permita filtrar as tarefas por palavras-chave.
 
 [⬆️ Voltar para o Início](#Índice)
 
 ## Layouts Avançados com Flexbox e Grid
 
+Os sistemas de layout Flexbox e Grid são ferramentas poderosas em CSS para criar layouts complexos e responsivos. Eles oferecem uma maneira eficiente de alinhar e distribuir espaço entre itens em um contêiner, tornando o design mais flexível e intuitivo.
+
+### **Flexbox 📦**
+
+O Flexbox (Flexible Box Layout) é ideal para layouts unidimensionais, permitindo alinhar itens em linhas ou colunas.
+
+#### **Estrutura Básica do Flexbox**
+
+Para usar o Flexbox, defina o contêiner como um elemento flexível usando a propriedade `display: flex`.
+
+```css
+.container {
+    display: flex;
+}
+
+```
+
+#### **Direção e Alinhamento**
+
+- **`flex-direction`**: Define a direção dos itens no contêiner flexível (`row`, `column`, `row-reverse`, `column-reverse`).
+
+```css
+.container {
+    flex-direction: row;
+}
+
+```
+
+- **`justify-content`**: Alinha os itens ao longo do eixo principal (`flex-start`, `flex-end`, `center`, `space-between`, `space-around`).
+
+```css
+.container {
+    justify-content: center;
+}
+
+```
+
+- **`align-items`**: Alinha os itens ao longo do eixo transversal (`flex-start`, `flex-end`, `center`, `stretch`, `baseline`).
+
+```css
+.container {
+    align-items: center;
+}
+
+```
+
+#### **Flex-Wrap**
+
+A propriedade `flex-wrap` permite que os itens do contêiner flexível quebrem em várias linhas.
+
+```css
+.container {
+    flex-wrap: wrap;
+}
+
+```
+
+#### **Propriedades dos Itens Flexíveis**
+
+- **`flex-grow`**: Define a capacidade de um item crescer para ocupar o espaço disponível.
+
+```css
+.item {
+    flex-grow: 1;
+}
+
+```
+
+- **`flex-shrink`**: Define a capacidade de um item encolher se necessário.
+
+```css
+.item {
+    flex-shrink: 1;
+}
+
+```
+
+- **`flex-basis`**: Define o tamanho inicial de um item antes de ele crescer ou encolher.
+
+```css
+.item {
+    flex-basis: 200px;
+}
+
+```
+
+### Exemplo Prático com Flexbox
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Layout Flexbox</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+</body>
+</html>
+
+```
+
+No arquivo `styles.css`:
+
+```css
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.item {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+```
+
+## **Grid Layout 🏗️**
+
+O Grid Layout é ideal para layouts bidimensionais, permitindo alinhar itens em linhas e colunas.
+
+### **Estrutura Básica do Grid**
+
+Para usar o Grid Layout, defina o contêiner como um elemento de grade usando a propriedade `display: grid`.
+
+```css
+.container {
+    display: grid;
+}
+
+```
+
+### **Definindo Linhas e Colunas**
+
+- **`grid-template-columns`** e **`grid-template-rows`**: Definem o número e o tamanho das colunas e linhas.
+
+```css
+.container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 200px;
+}
+
+```
+
+#### **Gap e Alinhamento**
+
+- **`grid-gap`**: Define o espaçamento entre as células da grade.
+
+```css
+.container {
+    grid-gap: 20px;
+}
+
+```
+
+- **`justify-items`** e **`align-items`**: Alinham os itens dentro das células da grade.
+
+#### **Posicionamento de Itens**
+
+Use `grid-column` e `grid-row` para posicionar itens específicos na grade.
+
+```css
+.item1 {
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+```
+
+#### **Exemplo Prático com Grid Layout**
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Layout Grid</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="item item1">Item 1</div>
+        <div class="item item2">Item 2</div>
+        <div class="item item3">Item 3</div>
+        <div class="item item4">Item 4</div>
+    </div>
+</body>
+</html>
+
+```
+
+No arquivo `styles.css`:
+
+```css
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 200px;
+    grid-gap: 20px;
+    width: 80%;
+}
+
+.item {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.item1 {
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+```
+
+### **Exercícios 📝**
+
+1. Crie um layout Flexbox com três colunas e duas linhas, distribuindo itens de maneira uniforme e responsiva.
+2. Crie um layout Grid com quatro colunas e três linhas, ajustando o tamanho das células para se adaptarem ao conteúdo.
+3. Adicione gap entre as células do Grid e alinhe os itens no centro horizontal e verticalmente.
+4. Use Flexbox para criar um layout de barra de navegação com itens espaçados uniformemente.
+5. Crie um layout de galeria de imagens usando Grid, com imagens de tamanhos variados posicionadas em diferentes áreas da grade.
+
 [⬆️ Voltar para o Início](#Índice)
 
-## Projeto 5: Dashboard Responsivo
+## **Projeto 5: Dashboard Responsivo**
+
+Neste projeto, você aplicará os conceitos avançados de HTML, CSS e JavaScript para criar um dashboard responsivo. O objetivo é construir uma página que mostre dados, gráficos e widgets, se ajustando perfeitamente a diferentes tamanhos de tela.
+
+### **Estrutura HTML do Dashboard**
+
+Começaremos criando a estrutura HTML básica do dashboard. Esta estrutura incluirá um cabeçalho, uma barra lateral de navegação, uma área principal para os gráficos e widgets, e um rodapé.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard Responsivo</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Dashboard</h1>
+    </header>
+    <main>
+        <nav class="sidebar">
+            <ul>
+                <li><a href="#overview">Visão Geral</a></li>
+                <li><a href="#reports">Relatórios</a></li>
+                <li><a href="#analytics">Análises</a></li>
+                <li><a href="#settings">Configurações</a></li>
+            </ul>
+        </nav>
+        <div class="main-content">
+            <section id="overview" class="widget">
+                <h2>Visão Geral</h2>
+                <p>Conteúdo da visão geral...</p>
+                <canvas id="grafico1"></canvas>
+            </section>
+            <section id="reports" class="widget">
+                <h2>Relatórios</h2>
+                <canvas id="grafico2"></canvas>
+            </section>
+            <section id="analytics" class="widget">
+                <h2>Análises</h2>
+                <p>Conteúdo das análises...</p>
+                <canvas id="grafico3"></canvas>
+            </section>
+            <section id="settings" class="widget">
+                <h2>Configurações</h2>
+                <p>Conteúdo das configurações...</p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Dashboard</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+```
+
+### **Layout e Estilização com Flexbox e Grid 🎨**
+
+Vamos usar Flexbox para o layout da barra lateral e Grid para a área principal.
+
+#### **Estilizando a Página**
+
+```css
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+header, footer {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 1em 0;
+}
+
+header h1 {
+	margin: 0;
+}
+
+main {
+	display: flex;
+	flex-grow: 1;
+	width: 100%;
+}
+
+.sidebar {
+	background-color: #2c3e50;
+	color: white;
+	width: 200px;
+	min-height: 100vh;
+	padding-top: 20px;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+}
+
+.sidebar ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.sidebar ul li {
+	padding: 10px;
+	text-align: center;
+}
+
+.sidebar ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+	background-color: #34495e;
+	display: block;
+	border-radius: 5px;
+}
+
+.main-content {
+	margin-left: 200px;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.widget {
+	background: white;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 1em 0;
+	width: 100%;
+	margin-top: auto;
+}
+```
+
+### **Adicionando Gráficos e Widgets 📊​**
+
+Para adicionar gráficos, podemos usar bibliotecas de gráficos como Chart.js. Adicionaremos um gráfico simples usando esta biblioteca.
+
+#### **Incluindo Chart.js**
+
+Adicione o seguinte script na seção `<head>` do seu HTML para incluir Chart.js:
+```html
+<script src="<https://cdn.jsdelivr.net/npm/chart.js>"></script>
+```
+
+#### **Criando um Gráfico**
+
+No arquivo script.js, adicione o código para criar um gráfico.
+```javascript
+document.addEventListener("DOMContentLoaded", function () {
+  let ctx1 = document.getElementById("grafico1").getContext("2d");
+
+  new Chart(ctx1, {
+    type: "bar",
+    data: {
+      labels: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho"],
+      datasets: [
+        {
+          label: "Vendas",
+          data: [12, 19, 3, 5, 2, 3],
+          backgroundColor: "rgba(75, 192, 192, 0.2)",
+          borderColor: "rgba(75, 192, 192, 1)",
+          borderWidth: 1,
+        },
+      ],
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true,
+        },
+      },
+    },
+  });
+
+  let ctx2 = document.getElementById("grafico2").getContext("2d");
+  new Chart(ctx2, {
+    type: "bubble",
+    data: {
+      datasets: [
+        {
+          label: "Vendas",
+          data: [
+            { x: 10, y: 20, r: 5 },
+            { x: 15, y: 10, r: 10 },
+            { x: 5, y: 5, r: 15 },
+          ],
+          backgroundColor: "rgba(75, 192, 192, 0.2)",
+          borderColor: "rgba(75, 192, 192, 1)",
+          borderWidth: 1,
+        },
+      ],
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true,
+        },
+      },
+    },
+  });
+
+  let ctx3 = document.getElementById("grafico3").getContext("2d");
+
+  new Chart(ctx3, {
+    type: "line",
+    data: {
+      labels: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho"],
+      datasets: [
+        {
+          label: "Vendas",
+          data: [12, 19, 3, 5, 2, 3],
+          backgroundColor: "rgba(75, 192, 192, 0.2)",
+          borderColor: "rgba(75, 192, 192, 1)",
+          borderWidth: 1,
+        },
+      ],
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true,
+        },
+      },
+    },
+  });
+});
+```
+
+#### **Ajustando o Layout para Responsividade 📱💻**
+
+Use media queries para garantir que o layout se ajuste corretamente em dispositivos móveis.
+
+```css
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        min-height: auto;
+    }
+
+    .main-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+```
+
+### **Exercícios 📝**
+
+1. Adicione mais gráficos ao dashboard usando diferentes tipos de gráficos (linha, pizza, etc.) com Chart.js.
+2. Crie um widget adicional que mostre uma lista de tarefas pendentes.
+3. Implemente um sistema de navegação na barra lateral que permita mostrar e ocultar diferentes seções do dashboard.
+4. Adicione um formulário de contato no rodapé e estilize-o para se ajustar ao design do dashboard.
+5. Use animações CSS para melhorar a experiência do usuário ao interagir com os widgets e gráficos.
 
 [⬆️ Voltar para o Início](#Índice)
 
-## JavaScript Avançado
+## **JavaScript Avançado**
+
+Neste tópico, você vai aprofundar seus conhecimentos em JavaScript, aprendendo sobre manipulação avançada do DOM, eventos avançados e programação assíncrona.
+
+### **Manipulação Avançada do DOM**
+
+Manipular o DOM de maneira avançada permite criar interfaces mais dinâmicas e interativas.
+
+#### **Seleção de Múltiplos Elementos**
+
+Para selecionar múltiplos elementos, você pode usar métodos como `querySelectorAll`.
+
+```jsx
+let paragrafos = document.querySelectorAll('p');
+paragrafos.forEach(paragrafo => {
+    paragrafo.style.color = 'blue';
+});
+
+```
+
+#### **Modificação de Atributos e Classes**
+
+Modificar atributos e classes pode ajudar a alterar a aparência e o comportamento de elementos de forma dinâmica.
+
+```jsx
+let img = document.querySelector('img');
+img.setAttribute('src', 'nova-imagem.jpg');
+img.classList.add('imagem-grande');
+
+```
+
+#### **Criação e Remoção de Elementos**
+
+Você pode criar e remover elementos do DOM para alterar a interface do usuário conforme necessário.
+
+```jsx
+// Criar um novo elemento
+let novoParagrafo = document.createElement('p');
+novoParagrafo.textContent = 'Este é um novo parágrafo.';
+document.body.appendChild(novoParagrafo);
+
+// Remover um elemento existente
+let paragrafoParaRemover = document.querySelector('p');
+paragrafoParaRemover.parentNode.removeChild(paragrafoParaRemover);
+
+```
+
+### **Eventos Avançados**
+
+Eventos são ações que ocorrem na página e que podem ser capturadas e manipuladas usando JavaScript.
+
+#### **Manipulação de Eventos de Formulários**
+
+Capturar e manipular eventos de formulários permite validar e processar dados de entrada.
+```javascript
+let formulario = document.querySelector('form');
+formulario.addEventListener('submit', function(event) {
+    event.preventDefault(); // Previne o envio padrão do formulário
+    let nome = document.querySelector('#nome').value;
+    let email = document.querySelector('#email').value;
+    if (nome === '' || email === '') {
+        alert('Por favor, preencha todos os campos.');
+    } else {
+        alert('Formulário enviado com sucesso!');
+        formulario.submit(); // Envia o formulário
+    }
+});
+```
+​
+#### **Eventos de Teclado**
+
+Eventos de teclado são úteis para capturar interações do usuário com o teclado.
+```javascript
+document.addEventListener('keydown', function(event) {
+    console.log('Tecla pressionada: ' + event.key);
+});
+```
+​
+### **Programação Assíncrona**
+
+A programação assíncrona permite realizar tarefas demoradas (como chamadas a APIs) sem bloquear a execução do código.
+
+##### **Promises**
+
+Promises são usadas para lidar com operações assíncronas. Elas representam um valor que pode estar disponível agora, no futuro ou nunca.
+```javascript
+let promessa = new Promise(function(resolve, reject) {
+    let sucesso = true; // Simulando uma operação
+    if (sucesso) {
+        resolve('A operação foi bem-sucedida!');
+    } else {
+        reject('A operação falhou.');
+    }
+});
+
+promessa.then(function(mensagem) {
+    console.log(mensagem);
+}).catch(function(erro) {
+    console.log(erro);
+});
+```
+​
+#### **Async/Await**
+
+Async/Await é uma sintaxe mais simples para lidar com promises.
+```javascript
+async function buscarDados() {
+    try {
+        let resposta = await fetch('<https://api.exemplo.com/dados>');
+        let dados = await resposta.json();
+        console.log(dados);
+    } catch (erro) {
+        console.log('Erro:', erro);
+    }
+}
+
+buscarDados();
+```
+​
+### **Exercícios 📝​**
+
+1- Crie uma função que selecione todos os elementos de uma determinada classe e altere seu conteúdo de texto.
+2- Adicione um evento de clique a um botão que, quando clicado, crie e adicione um novo elemento ao DOM.
+3- Crie um formulário de login com validação usando eventos de formulário.
+4- Implemente um contador que aumenta ou diminui seu valor quando as teclas de seta para cima ou para baixo são pressionadas.
+5- Use fetch para buscar dados de uma API pública e exibi-los na página. Use async/await para simplificar o código.
 
 [⬆️ Voltar para o Início](#Índice)
 
