@@ -29,7 +29,7 @@ Não gaste seu tempo fazendo o trabalho que um macaco bem treinado poderia fazer
 
 - [Introdução](#Introdução)
 - [Capítulo 1 – Noções básicas de Python](#Noções-básicas-de-Python)
-- [Capítulo 2 – Controle de Fluxo](#Controle-de-Fluxos)
+- [Capítulo 2 – Controle de Fluxo](#Controle-de-Fluxo)
 - [Capítulo 3 – Funções](#Funções)
 - [Capítulo 4 – Listas](#Listas)
 - [Capítulo 5 – Dicionários e Estruturação de Dados](#Dicionários-e-Estruturação-de-Dados)
