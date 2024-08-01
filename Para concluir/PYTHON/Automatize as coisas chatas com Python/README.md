@@ -45,7 +45,7 @@ Não gaste seu tempo fazendo o trabalho que um macaco bem treinado poderia fazer
 - [Capítulo 15 – Trabalhando com documentos PDF e Word](#Trabalhando-com-documentos-PDF-e-Word)
 - [Capítulo 16 – Trabalhando com arquivos CSV e dados JSON](#Trabalhando-com-arquivos-CSV-e-dados-JSON)
 - [Capítulo 17 – Marcando o Tempo, Agendando Tarefas e Iniciando Programas](#Marcando-o-Tempo-Agendando-Tarefas-e-Iniciando-Programas)
-- [Capítulo 18 – Envio de e-mail e mensagens de texto](#Envio-de-email-e-mensagens-de-texto)
+- [Capítulo 18 – Envio de e-mail e mensagens de texto](#Envio-de-e-mail-e-mensagens-de-texto)
 - [Capítulo 19 – Manipulando Imagens](#Manipulando-Imagens)
 - [Capítulo 20 – Controlando o teclado e o mouse com automação GUI](#Controlando-o-teclado-e-o-mouse-com-automação-GUI)
 - [Apêndice A – Instalando Módulos de Terceiros](#Instalando-Módulos-de-Terceiros)
