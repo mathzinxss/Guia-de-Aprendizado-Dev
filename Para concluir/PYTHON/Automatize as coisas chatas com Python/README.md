@@ -56,94 +56,94 @@ Não gaste seu tempo fazendo o trabalho que um macaco bem treinado poderia fazer
 
 [⬆️ Voltar ao Início](#Índice)
 
-## **Capítulo 1 – Noções básicas de Python**
+## **Noções básicas de Python**
 
 [⬆️ Voltar ao Início](#Índice)
 
-## **Capítulo 2 – Controle de Fluxo**
+## **Controle de Fluxo**
 
 [⬆️ Voltar ao Início](#Índice)
 
-## **Capítulo 3 – Funções**
+## **Funções**
 
 [⬆️ Voltar ao Início](#Índice)
 
-## **Capítulo 4 – Listas**
+## **Listas**
 
 [⬆️ Voltar ao Início](#Índice)
 
-## **Capítulo 5 – Dicionários e Estruturação de Dados**
+## **Dicionários e Estruturação de Dados**
 
 [⬆️ Voltar ao Início](#Índice)
 
-## **Capítulo 6 – Manipulando Strings**
+## **Manipulando Strings**
 
 [⬆️ Voltar ao Início](#Índice)
 
-## **Capítulo 7 – Correspondência de padrões com expressões regulares**
+## **Correspondência de padrões com expressões regulares**
 
 [⬆️ Voltar ao Início](#Índice)
 
-## **Capítulo 8 – Validação de Entrada**
+## **Validação de Entrada**
 
 [⬆️ Voltar ao Início](#Índice)
 
-## **Capítulo 9 – Lendo e Gravando Arquivos**
+## **Lendo e Gravando Arquivos**
 
 [⬆️ Voltar ao Início](#Índice)
 
-## **Capítulo 10 – Organizando Arquivos**
+## **Organizando Arquivos**
 
 [⬆️ Voltar ao Início](#Índice)
 
-## **Capítulo 11 – Depuração**
+## **Depuração**
 
 [⬆️ Voltar ao Início](#Índice)
 
-## **Capítulo 12 – Web Scraping**
+## **Web Scraping**
 
 [⬆️ Voltar ao Início](#Índice)
 
-## **Capítulo 13 – Trabalhando com planilhas Excel**
+## **Trabalhando com planilhas Excel**
 
 [⬆️ Voltar ao Início](#Índice)
 
-## **Capítulo 14 – Trabalhando com Planilhas Google**
+## **Trabalhando com Planilhas Google**
 
 [⬆️ Voltar ao Início](#Índice)
 
-## **Capítulo 15 – Trabalhando com documentos PDF e Word**
+## **Trabalhando com documentos PDF e Word**
 
 [⬆️ Voltar ao Início](#Índice)
 
-## **Capítulo 16 – Trabalhando com arquivos CSV e dados JSON**
+## **Trabalhando com arquivos CSV e dados JSON**
 
 [⬆️ Voltar ao Início](#Índice)
 
-## **Capítulo 17 – Marcando o Tempo, Agendando Tarefas e Iniciando Programas**
+## **Marcando o Tempo, Agendando Tarefas e Iniciando Programas**
 
 [⬆️ Voltar ao Início](#Índice)
 
-## **Capítulo 18 – Envio de e-mail e mensagens de texto**
+## **Envio de e-mail e mensagens de texto**
 
 [⬆️ Voltar ao Início](#Índice)
 
-## **Capítulo 19 – Manipulando Imagens**
+## **Manipulando Imagens**
 
 [⬆️ Voltar ao Início](#Índice)
 
-## **Capítulo 20 – Controlando o teclado e o mouse com automação GUI**
+## **Controlando o teclado e o mouse com automação GUI**
 
 [⬆️ Voltar ao Início](#Índice)
 
-## **Apêndice A – Instalando Módulos de Terceiros**
+## **Instalando Módulos de Terceiros**
 
 [⬆️ Voltar ao Início](#Índice)
 
-## **Apêndice B – Programas em execução**
+## **Programas em execução**
 
 [⬆️ Voltar ao Início](#Índice)
 
-## **Apêndice C – Respostas às questões práticas**
+## **Respostas às questões práticas**
 
 [⬆️ Voltar ao Início](#Índice)
