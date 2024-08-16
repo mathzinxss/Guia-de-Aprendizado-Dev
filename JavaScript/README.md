@@ -84,26 +84,116 @@
   - Estrutura HTML da Página
   - Estilização Avançada com CSS
 10. [Layout Responsivo 📱💻](#Layout-Responsivo)
-
+  - Introdução ao Design Responsivo
+    - Unidades Flexíveis
+  - Media Queries
+    - Exemplos de Media Queries
+  - Flexbox Básico
+    - Container Flex
+    - Direção Flexível
+    - Alinhamento e Justificação
+  - Exemplo Prático
+  - Exercícios
 11. [Elementos Semânticos e Acessibilidade 🌍](#Elementos-Semânticos-e-Acessibilidade)
-
+  - Elementos Semânticos
+    - Elementos Comuns
+  - Importância de Acessibilidade
+    - Princípios de Acessibilidade
+  - Atributos ARIA (Acessible Rich Internet Applications)
+    - Exemplos de Atributos ARIA
+  - Exercícios
 12. [Projeto 2: Blog Pessoal 📓](#Projeto-2-Blog-Pessoal)
-
+  - Estrutura HTML do Blog
+  - Estilização com CSS
+  - Adicionando Elementos Semânticos
+  - Exercícios
 13. [Manipulação Avançada do DOM 🌐](#Manipulação-Avançada-do-DOM)
-
+  - Seleção de Múltiplos Elementos
+    - `getElementById`
+    - `getElementByClassName`
+    - `getElementByTagName`
+    - `querySelector` e `querySelectorAll`
+  - Modificação de Atributos e Classes
+    - Modificação de Atributos
+    - Manipulação de Classes
+  - Criação e Remoção de Elementos
+    - Criação de Elementos
+    - Remoção de Elementos
+  - Manipulação de Eventos
+    - Adicionando Eventos
+    - Eventos Comuns
+  - Exercícios
 14. [Projeto 3: Página de Portfólio (HTML e CSS) 💼](#Projeto-3-Página-de-Portfólio-HTML-e-CSS)
-
+  - Estrutura HTML do Portfólio
+  - Estilização Avançada com CSS
+  - Adicionando Elementos Gráficos e Animações Simples
+    - Animações com CSS
+    - Exercícios
 15. [Interatividade Básica com JavaScript 💻](#Interatividade-Básica-com-JavaScript)
-
+  - Manipulação de Eventos
+    - Eventos de Clique ( `click` )
+    - Eventos de Mouse ( `mouseover` e `mouseout` )
+  - Manipulação de Formulários
+    - Captura de Dados de Formulário
+    - Validação de Formulário
+  - Interações Básicas (Mostrar/Esconder Elementos)
+  - Exercícios
 16. [Trabalhando com Listas e Tabelas 📋](#Trabalhando-com-Listas-e-Tabelas)
+  - Criando Listas
+    - Listas não Ordenadas ( `li` )
+    - Listas Ordenadas ( `Ol` )
+    - Listas de Definição ( `dl` )
+  - Estrutura de Tabelas
+    - Estrutura Básica de uma Tabela
+    - Cabeçalho e Rodapés de Tabela
+    - Mesclagem de Células
+  - Estilizando Listas e Tabelas com CSS
+    - Estilizando Listas
+    - Estilizando Tabelas
+  - Exercícios
 
 17. [Projeto 4: Lista de Tarefas 📝](#Projeto-4-Lista-de-Tarefas)
-
+  - Estrutura HTML da Lista de Tarefas
+  - Estilizando a Lista com CSS
+  - Adicionando Interatividade com JavaScript
+    - Adicionando Tarefas
+    - Marcar Tarefas como Concluídas
+  - Exercícios
 18. [Layouts Avançados com Flexbox e Grid 🎨](#Layouts-Avançados-com-Flexbox-e-Grid)
-
+  - Flexbox
+    - Estrutura Básica do Flexbox
+    - Direção e Alinhamento
+    - Flex-Wrap
+    - Propriedades dos Itens Flexíveis
+    - Exemplos Práticos com Flexbox
+  - Grid Layout
+    - Estrutura Básica do Grid
+    - Definindo Linhas e Colunas
+    - Gap e Alinhamento
+    - Posicionamento de Itens
+    - Exemplo Prático com Grid Layout
+  - Exercícios
 19. [Projeto 5: Dashboard Responsivo 📊](#Projeto-5-Dashboard-Responsivo)
-
+  - Estrutura HTML do Dashboard
+  - Layout de Estilização com FLexbox e Grid
+    - Estilizando a Página
+  - Adicionando Gráficos e Widgets
+    - Incluíndo Chart.js
+    - Criando um Gráfico
+    - Ajustando o Layout para Responsividade
+  - Exercícios
 20. [JavaScript Avançado 💻](#JavaScript-Avançado)
+  - Manipulação Avançada do DOM
+    - Seleção de Multiplos Elementos
+    - Modificação de Atributos e Classes
+    - Criação e Remoção de Elementos
+  - Eventos Avançados
+    - Manipulação de Eventos de Formulários
+    - Eventos de Teclado
+  - Programação Assícrona
+    - Promises
+    - Async/Await
+    - Exercícios  
 
 ---
 
