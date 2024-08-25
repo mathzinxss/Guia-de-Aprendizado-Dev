@@ -109,7 +109,7 @@ Node.js é um runtime de JavaScript construído no motor V8 do Google Chrome. Di
 
 Node.js é conhecido por seu modelo de I/O não bloqueante e orientado a eventos, que o torna uma escolha popular para construir aplicações de rede escaláveis, como servidores web, APIs e aplicações em tempo real.
 
-![Untitled]([https://prod-files-secure.s3.us-west-2.amazonaws.com/f7feecbd-7058-4805-b782-5c71283c99cc/d4618b97-f2a0-4c87-a97a-d40aea5d311d/Untitled.png](https://umporcentoprogramador.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Ff7feecbd-7058-4805-b782-5c71283c99cc%2Fd4618b97-f2a0-4c87-a97a-d40aea5d311d%2FUntitled.png?table=block&id=c6b4e0a6-4340-4ca5-806c-135b3ffde193&spaceId=f7feecbd-7058-4805-b782-5c71283c99cc&width=960&userId=&cache=v2))
+![Untitled](https://umporcentoprogramador.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Ff7feecbd-7058-4805-b782-5c71283c99cc%2Fd4618b97-f2a0-4c87-a97a-d40aea5d311d%2FUntitled.png?table=block&id=c6b4e0a6-4340-4ca5-806c-135b3ffde193&spaceId=f7feecbd-7058-4805-b782-5c71283c99cc&width=960&userId=&cache=v2)
 
 ### **História e evolução do Node.js**
 
