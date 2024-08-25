@@ -659,6 +659,162 @@ writeStream.on('error', err => {
 
 ## **Trabalhando com HTTP**
 
+### Trabalhando com HTTP
+
+O Node.js possui um módulo interno chamado `http` que permite criar servidores web e lidar com requisições e respostas HTTP. Este módulo fornece a base para a construção de aplicações web e APIs.
+
+### **Introdução ao HTTP**
+
+HTTP (HyperText Transfer Protocol) é o protocolo fundamental usado na web para a comunicação entre clientes (geralmente navegadores web) e servidores. Ele define como as mensagens são formatadas e transmitidas, e quais ações os servidores e navegadores devem tomar em resposta a diferentes comandos.
+
+![img](https://umporcentoprogramador.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Ff7feecbd-7058-4805-b782-5c71283c99cc%2Fe12521b6-316f-479b-beb5-e7601a67e54f%2FUntitled.png?table=block&id=6a8fb59f-91d7-40c9-95a1-333060d8ae84&spaceId=f7feecbd-7058-4805-b782-5c71283c99cc&width=1320&userId=&cache=v2)
+
+**Componentes de uma Requisição HTTP**
+
+1. **Método HTTP**: Define a ação a ser realizada. Os métodos mais comuns incluem:
+    - GET: Solicita dados de um servidor.
+    - POST: Envia dados para um servidor para criar ou atualizar recursos.
+    - PUT: Atualiza um recurso existente no servidor.
+    - DELETE: Remove um recurso do servidor.
+2. **URL (Uniform Resource Locator)**: Especifica o endereço do recurso a ser acessado.
+3. **Headers**: Contêm informações adicionais sobre a requisição, como tipo de conteúdo, autenticação, etc.
+4. **Body**: Usado para enviar dados ao servidor (geralmente em requisições POST e PUT).
+
+**Componentes de uma Resposta HTTP**
+
+1. **Status Code**: Indica o resultado da requisição. Alguns códigos comuns são:
+    - 200 OK: A requisição foi bem-sucedida.
+    - 404 Not Found: O recurso solicitado não foi encontrado.
+    - 500 Internal Server Error: Ocorreu um erro no servidor.
+2. **Headers**: Contêm informações sobre a resposta, como tipo de conteúdo, tamanho, etc.
+3. **Body**: Contém os dados retornados pelo servidor, como HTML, JSON, etc.
+
+### Criando um Servidor HTTP Básico
+
+Para criar um servidor HTTP básico, você precisa utilizar o módulo `http` e definir como o servidor deve responder às requisições.
+
+```javascript
+const http = require('http');
+
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain');
+  res.end('Hello, World!\\n');
+});
+
+const PORT = 3000;
+server.listen(PORT, () => {
+  console.log(`Server running at <http://localhost>:${PORT}/`);
+});
+```
+
+Executando o servidor:
+
+```bash
+node index.js
+```
+
+Depois de executar este comando, você pode abrir seu navegador e acessar `http://localhost:3000` para ver a mensagem "Hello, World!" exibida.
+
+### Tratamento de Requisições e Respostas
+
+#### Requisições (Requests)
+
+As requisições HTTP possuem várias propriedades que podem ser acessadas para obter informações sobre a solicitação.
+
+```javascript
+const http = require('http');
+
+const server = http.createServer((req, res) => {
+  console.log(`Request method: ${req.method}`);
+  console.log(`Request URL: ${req.url}`);
+  console.log(`Request headers: ${JSON.stringify(req.headers)}`);
+
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain');
+  res.end('Request received\\n');
+});
+
+const PORT = 3000;
+server.listen(PORT, () => {
+  console.log(`Server running at <http://localhost>:${PORT}/`);
+});
+```
+
+### Respostas (Responses)
+
+Para enviar uma resposta ao cliente, você pode definir o status, os headers e o corpo da resposta.
+
+```javascript
+const http = require('http');
+
+const server = http.createServer((req, res) => {
+  if (req.url === '/plain') {
+    res.statusCode = 200;
+    res.setHeader('Content-Type', 'text/plain');
+    res.end('Hello, plain text!\\n');
+  } else if (req.url === '/json') {
+    res.statusCode = 200;
+    res.setHeader('Content-Type', 'application/json');
+    res.end(JSON.stringify({ message: 'Hello, JSON!' }));
+  } else {
+    res.statusCode = 404;
+    res.setHeader('Content-Type', 'text/plain');
+    res.end('Not Found\\n');
+  }
+});
+
+const PORT = 3000;
+server.listen(PORT, () => {
+  console.log(`Server running at <http://localhost>:${PORT}/`);
+});
+```
+
+### Middleware e Roteamento
+
+Para projetos maiores, é comum usar bibliotecas como `express` para facilitar o gerenciamento de rotas e middlewares.
+
+### Roteamento Básico com `http`
+
+```javascript
+const http = require('http');
+
+const server = http.createServer((req, res) => {
+  if (req.method === 'GET' && req.url === '/') {
+    res.statusCode = 200;
+    res.setHeader('Content-Type', 'text/plain');
+    res.end('Hello, GET request!\\n');
+  } else if (req.method === 'POST' && req.url === '/data') {
+    let body = '';
+    req.on('data', chunk => {
+      body += chunk.toString();
+    });
+    req.on('end', () => {
+      res.statusCode = 200;
+      res.setHeader('Content-Type', 'application/json');
+      res.end(JSON.stringify({ receivedData: body }));
+    });
+  } else {
+    res.statusCode = 404;
+    res.setHeader('Content-Type', 'text/plain');
+    res.end('Not Found\\n');
+  }
+});
+
+const PORT = 3000;
+server.listen(PORT, () => {
+  console.log(`Server running at <http://localhost>:${PORT}/`);
+});
+```
+
+### **Exercícios Práticos**
+
+1. **Servidor HTTP Básico**: Crie um servidor HTTP que responde com "Hello, World!" para qualquer requisição.
+2. **Requisições e Respostas**: Crie um servidor HTTP que exibe o método, URL e cabeçalhos da requisição no console, e responde com "Request received".
+3. **Roteamento**: Implemente um servidor HTTP que responda de maneira diferente para as URLs `/plain` (texto simples) e `/json` (JSON).
+4. **Recebendo Dados**: Crie um servidor HTTP que aceite requisições POST para a URL `/data`, receba o corpo da requisição e responda com os dados recebidos em formato JSON.
+5. **Gerenciamento de Erros**: Implemente um servidor HTTP que responda com "Not Found" para qualquer rota não definida e com "Method Not Allowed" para métodos HTTP não suportados.
+
 [Voltar ao Início ⬆️](#Índice)
 
 ## **Express**
