@@ -131,9 +131,9 @@ Node.js foi criado por Ryan Dahl em 2009. A motivação por trás do Node.js foi
 2. **Single-threaded**: Embora o Node.js possa lidar com muitas conexões simultâneas, ele ainda é single-threaded, o que pode ser uma limitação para algumas tarefas computacionais pesadas.
 3. **Callback Hell**: Sem um gerenciamento adequado, o uso extensivo de callbacks pode tornar o código difícil de manter e ler, embora o uso de Promises e async/await tenha mitigado esse problema.
 
----
-
 [Voltar ao Início ⬆️](#Índice)
+
+---
 
 ## **Instalando e Configurando Ambientes**
 
