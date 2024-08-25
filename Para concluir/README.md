@@ -659,8 +659,6 @@ writeStream.on('error', err => {
 
 ## **Trabalhando com HTTP**
 
-### Trabalhando com HTTP
-
 O Node.js possui um módulo interno chamado `http` que permite criar servidores web e lidar com requisições e respostas HTTP. Este módulo fornece a base para a construção de aplicações web e APIs.
 
 ### **Introdução ao HTTP**
