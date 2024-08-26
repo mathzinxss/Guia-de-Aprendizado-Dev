@@ -1,4 +1,3 @@
-<<<<<<<< HEAD:Python/README.md
   # Guia - Python
 
 ## Índice
@@ -2824,4 +2823,3 @@ Neste tópico, exploramos recursos valiosos para aprofundar seu conhecimento em 
 Esses exercícios ajudarão a consolidar seu aprendizado, interagir com a comunidade de desenvolvedores e aplicar seus conhecimentos em situações reais.
 
 [⬆️ Voltar ao Início](#Índice)
->>>>>>>> 030da324f625747c018b5c6bca1bc2bac51ec8e1:Para concluir/PYTHON/README.md
