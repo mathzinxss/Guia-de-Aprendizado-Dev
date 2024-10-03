@@ -24,3 +24,4 @@ Repositório com diversos guias de aprendizagem para programadores.
   - Sintatize o que vai dizer
   - Evite vícios de linguagem
   - Faça uso de recursos audiovisuais
+  - Faça com que seu publico te leve para casa
