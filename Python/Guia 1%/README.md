@@ -2,7 +2,7 @@
 
 ## índice
 
-1. [Introdução ao Python](#Introdução-ao-Python)
+1. [**Introdução ao Python**](#Introdução-ao-Python)
     - O que é python e por que aprender?
         - Principais características do Python
     - Instalação do Python e configuração do ambiente
@@ -14,7 +14,7 @@
         - Executando pelo seu Editor de Código
         - Executando interativamente
         - Jupyter Notebooks
-2. Fundamentos da Linguagem
+2. **Fundamentos da Linguagem**
     - Tipos de dados básicos (int, float, str, bool)
         - Inteiros `int`
         - Números Reais `float`
