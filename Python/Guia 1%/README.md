@@ -1,8 +1,8 @@
 # **Guia de Python**
 
-## índice
+## **índice**
 
-1. [Introdução ao Python](#Introdução-ao-Python)
+1. [**Introdução ao Python**](#Introdução-ao-Python)
     - O que é python e por que aprender?
         - Principais características do Python
     - Instalação do Python e configuração do ambiente
@@ -14,7 +14,7 @@
         - Executando pelo seu Editor de Código
         - Executando interativamente
         - Jupyter Notebooks
-2. **Fundamentos da Linguagem**
+2. [**Fundamentos da Linguagem**](#Fundamentos-da-Linguagem)
     - Tipos de dados básicos (int, float, str, bool)
         - Inteiros `int`
         - Números Reais `float`
@@ -64,8 +64,13 @@
         - Criando dicionários
         - Acessando e modificando valores
         - Métodos úteis de dicionários
-    - 
-
+    - Operações e métodos com cada estrutura de dados
+        - Listas
+        - Tuplas
+        - Conjuntos
+        - Dicionários
+        - Exercícios
+5. **F**
 
 
 
@@ -74,7 +79,17 @@
 ## Introdução ao Python
 
 
-- Erros e dicas
+Oratória ou expressão verbal - Dicas sobre uma boa apresentação
 
     - Escreva corretamente
     - Domine o assunto
+    - Se prepare com antecedência
+    - Ensaie o discurso
+    - Conheça seu público
+    - Cuide da sua imagem
+    - Se atente aos gestos corporais
+    - Teste os recursos no local de apresentação
+    - Estabeleça contato visual
+    - Sintatize o que vai dizer
+    - Evite vícios de linguagem
+    - Faça uso de recursos audiovisuais
