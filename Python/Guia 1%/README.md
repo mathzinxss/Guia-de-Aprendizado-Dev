@@ -15,9 +15,28 @@
         - Executando interativamente
         - Jupyter Notebooks
     - Fundamentos da Linguagem
-        - Tipos de dados
-
-
+        - Tipos de dados básicos (int, float, str, bool)
+            - Inteiros `int`
+            - Números Reais `float`
+            -  Strings `str`
+            - Booleanos `bool`
+        - Variáveis e tipos de atribuição
+            - Como declarar variáveis
+            - Regras para nomear variáveis
+        - Entrada e saída de dados `input` e `print`
+            - Saída de dados com `print()`
+            - Entrada de dados com `input()`
+        - Operadores Aritméticos, relacionais e lógicos
+            - Operadores Aritméticos
+            - Operadores Relacionais
+            - Operadores Lógicos
+            - Exercícios
+    - Estruturas de Controle de Fluxo
+        - Condicionais `if`, `elif` e `else`
+            - A estrutura `if`
+            - A estrutura `elif`
+            - A estrutura `else`
+    - Es
 
 
 
@@ -25,3 +44,9 @@
 
 
 ## Introdução ao Python
+
+
+- Erros e dicas
+
+    - Escreva corretamente
+    - 
