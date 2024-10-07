@@ -70,26 +70,124 @@
         - Conjuntos
         - Dicionários
         - Exercícios
-5. **F**
+5. Funções em Python
+    - Definindo e chamando funções
+        - Criando uma função
+    - Parâmetros e argumentos
+        - Funções com parâmetros
+        - Parâmetros com valor padrão
+    - Retorno de valores
+    - Funções anônimas (lambda)
+        - Criando uma função lambda
+        - Usando lambda com múltiplos argumentos
+    - Funções embutidas mais comuns (map, filter, zip, etc.)
+        - `map()`
+        - `filter()`
+        - `zip()`
+        - Exercícios
+6. Trabalhando com Módulos e Pacotes
+    - Importando módulos padrão
+        - Importando um módulo
+        - Importando apenas funções específicas
+        - Renomeando módulos
+    - Criando seus próprios módulos
+        - Exemplo de módulo personalizado
+    - Instalação e uso de pacotes externos com pip
+        - Instalando um pacote pip
+        - Usando pacotes instalados
+    - Principais bibliotecas do Python para iniciantes
+        - Exercícios
+7. Manipulação de Arquivos
+    - leitura e escrita de arquivos de texto
+        - Abrindo um arquivo
+        - Lendo um arquivo
+        - Usando with para manipulação de arquivos
+    - Manipulação de arvuios CSV
+        - Lendo um arquivo CSV
+        - Escrevendo em um arquivo CSV
+    - Uso da biblioteca JSON
+        - Lendo um arquivo JSON
+        -  Escrevendo em um arquivo JSON
+    - Trabalhando com arquivos binários
+        - Lendo um arquivo binário
+        - Escrevendo em um arquivo binário
+        - Exercícios
+8. Tratamendo de Exceções
+    - Introdução a erros e exceções
+    - Blocos try, except, else e finally
+        - Usando try e except
+        - Usando else
+        - Usando finally
+    - Criando exceções personalizadas
+        - Criando uma exceção personalizada
+        - Exercícios
+9. Programação Orientada a Objetos (POO)
+    - O que é POO e por que usar?
+    - Classes e objetos
+        - Criando uma classe
+        - Criando um objeto
+    - Atributos e métodos
+        - Atributos de instância
+        - Métodos de instância
+    - Encapsulamento, herança e polimorfismo
+        - Encapsulamento
+        - Herança
+        - Polimorfismo
+    - Métodos especiais (construtor, destrutor, etc.)
+        - `__init__`: Construtor
+        - `__str__`: Representação em string
+        - `__del__`: Destrutor
+        - Exercícios
+10. Biblioteca Numpy (manipulação de arrays)
+    - Introdução ao NumPy
+    - Criando arrays
+        - Criando um array a partir de uma lista
+        - Criando arrays multidimensionais
+    - Principais funções e operações do NumPy
+        - Funções de inicialização
+        - Operações aritméticas
+        - Indexação e fatiamento
+        - Funções estatísticas
+    - Operações com matrizes
+        - Exercícios
+11. Biblioteca Pandas (análise de dados)
+    - Introdução ao Pandas
+    - Estruturas de dados principais do Pandas
+        - Criando uma Series
+        - Criando um DataFrame
+    - Manipulação de dados com Pandas
+        - Selecionando colunas e linhas
+        - Adicionando e removendo colunas
+    - Operações de agrupamento e agregação
+    - Leitura e escrita de arquivos
+        - Lendo arquivos CSV
+        - Escrevendo arquivos CSV
+        - Exercícios
+12. Biblioteca Matplotlib (visualização de dados)
+    - Introdução ao Matplotlib
+    - Criando gráficos básicos
+        - Gráfico de linhas
+        - Gráfico de barras
+        - Gráfico de pizza
+    - Personalizando gráficos
+        - Alterando cores e estilos
+        - Adicionando múltiplas séries de dados
+    - Salvando gráficos
+        - Exercícios
+13. Biblioteca Request (requisições HTTP)
+    - Introdução ao Requests
+    - Fazendo requisições HTTP
+        - Requisição GET
+        - Requisição POST
+    - Principais métodos HTTP
+    - Trabalhando com parâmetros e cabeçalhos
+        - Passando parâmetros em uma requisição GET
+        - Passando cabeçalhos em uma requisição
+    - Tratamento de erros e exceções
+        - Exercícios
 
 
 
 
 
 ## Introdução ao Python
-
-
-Oratória ou expressão verbal - Dicas sobre uma boa apresentação
-
-    - Escreva corretamente
-    - Domine o assunto
-    - Se prepare com antecedência
-    - Ensaie o discurso
-    - Conheça seu público
-    - Cuide da sua imagem
-    - Se atente aos gestos corporais
-    - Teste os recursos no local de apresentação
-    - Estabeleça contato visual
-    - Sintatize o que vai dizer
-    - Evite vícios de linguagem
-    - Faça uso de recursos audiovisuais
