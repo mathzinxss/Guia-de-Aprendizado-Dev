@@ -287,7 +287,7 @@ Se você pretende trabalhar com **Ciência de Dados** ou **Análise de Dados**, 
 
 O Python possui tipos de dados essenciais que formam a base da linguagem. Vamos entendê-los e como eles se comportam.
 
-#### Inteiros                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        `int`
+#### Inteiros   `int`
 
 Os números inteiros são aqueles sem casas decimais, como 1, 42, -10. Em Python, eles são representados pelo tipo `int`.
 meu_inteiro = 10
