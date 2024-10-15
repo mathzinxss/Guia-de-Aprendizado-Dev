@@ -138,7 +138,7 @@
         - `__str__`: Representação em string
         - `__del__`: Destrutor
         - Exercícios
-10. Biblioteca Numpy (manipulação de arrays)
+10. [**Biblioteca Numpy (manipulação de arrays)**](#Biblioteca-Numpy-manipulação-de-arrays)
     - Introdução ao NumPy
     - Criando arrays
         - Criando um array a partir de uma lista
