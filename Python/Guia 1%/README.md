@@ -70,7 +70,7 @@
         - Conjuntos
         - Dicionários
         - Exercícios
-5. Funções em Python
+5. [**Funções em Python**](#Funções-em-Python)
     - Definindo e chamando funções
         - Criando uma função
     - Parâmetros e argumentos
@@ -85,7 +85,7 @@
         - `filter()`
         - `zip()`
         - Exercícios
-6. Trabalhando com Módulos e Pacotes
+6. [**Trabalhando com Módulos e Pacotes**](#Trabalhando-com-Módulos-e-Pacotes)
     - Importando módulos padrão
         - Importando um módulo
         - Importando apenas funções específicas
