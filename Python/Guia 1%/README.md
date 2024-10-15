@@ -31,7 +31,7 @@
         - Operadores Relacionais
         - Operadores Lógicos
         - Exercícios
-3. Estruturas de Controle de Fluxo
+3. [**Estruturas de Controle de Fluxo**](#Estruturas-de-Controle-de-Fluxo)
     - Condicionais `if`, `elif` e `else`
         - A estrutura `if`
         - A estrutura `elif`
@@ -48,7 +48,7 @@
         - Sintaxe básica
         - Compreensão de listas com condições
         - Exercícios
-4. Estruturas de Dados em Python
+4. [**Estruturas de Dados em Python**](#Estruturas-de-Dados-em-Python)
     - Listas
         - Criando listas
         - Acessando elementos
@@ -190,4 +190,56 @@
 
 
 
-## Introdução ao Python
+## **Introdução ao Python**
+
+[Voltar ao início ⬆️](#Índice)
+
+## **Fundamentos da Linguagem**
+
+[Voltar ao início ⬆️](#Índice)
+
+## **Estruturas de Controle de Fluxo**
+
+[Voltar ao início ⬆️](#Índice)
+
+## **Estruturas de Dados em Python**
+
+[Voltar ao início ⬆️](#Índice)
+
+## **Funções em Python**
+
+[Voltar ao início ⬆️](#Índice)
+
+## **Trabalhando com Módulos e Pacotes**
+
+[Voltar ao início ⬆️](#Índice)
+
+## **Manipulação de Arquivos**
+
+[Voltar ao início ⬆️](#Índice)
+
+## **Tratamento de Exceções**
+
+[Voltar ao início ⬆️](#Índice)
+
+## **Programação Orientada a Objetos (POO)**
+
+[Voltar ao início ⬆️](#Índice)
+
+## **Biblioteca Numpy (manipulação de arrays)**
+
+[Voltar ao início ⬆️](#Índice)
+
+## **Biblioteca Pandas (análise de dados)**
+
+[Voltar ao início ⬆️](#Índice)
+
+## **Biblioteca Matplotlib (visualização de dados)**
+
+[Voltar ao início ⬆️](#Índice)
+
+## **Biblioteca Requests (requisições HTTP)**
+
+[Voltar ao início ⬆️](#Índice)
+
+--- 
