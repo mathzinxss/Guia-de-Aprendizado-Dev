@@ -190,9 +190,111 @@
 
 ## **Introdução ao Python**
 
+### O que é Python e por que aprender?
+
+Python é uma linguagem de programação de alto nível, interpretada e **extremamente versátil**. É usada em diversas áreas como desenvolvimento web, ciência de dados, inteligência artificial, automação, entre outras. Para entender melhor, vamos fazer uma analogia:
+
+Imagine que você está em uma cozinha 🍳. Python seria como aquele **canivete suíço** que tem uma infinidade de funcionalidades e é útil em várias situações. Você pode usar uma ferramenta para cortar legumes, outra para abrir uma garrafa, e até mesmo uma pinça para pegar algo com precisão. Assim como o canivete, Python oferece uma variedade de "ferramentas" que permitem resolver problemas de diferentes naturezas.
+
+#### Principais características do Python
+
+1. **Sintaxe Simples**: Python tem uma sintaxe que se assemelha ao inglês, tornando-o mais fácil de aprender e ler. É como se estivesse lendo um manual de instruções, ao invés de tentar decifrar um código secreto.
+2. **Grande Comunidade e Ecossistema**: Como Python é popular, há uma grande comunidade de programadores prontos para ajudar, e muitos recursos disponíveis. Isso significa que sempre haverá alguém para te ajudar quando você travar em alguma coisa 💡.
+3. **Bibliotecas e Frameworks Poderosos**: Python tem uma vasta quantidade de bibliotecas e frameworks, como o `numpy` para cálculo numérico, `pandas` para manipulação de dados, e `django` para desenvolvimento web. É como ter um arsenal de ferramentas prontas para qualquer situação que você enfrentar 🛠️.
+
+### Instalação do Python e configuração do ambiente
+
+Antes de começar a programar, precisamos instalar o Python no seu computador. Siga os passos abaixo para configurar seu ambiente:
+
+#### Instalando o Python
+
+1. Acesse o site oficial do Python: [python.org](https://www.python.org/downloads/)
+2. Baixe a versão mais recente para o seu sistema operacional (Windows, macOS ou Linux).
+3. Durante a instalação, **não se esqueça de marcar a opção "Add Python to PATH"**! Isso permitirá que você execute o Python diretamente no terminal.
+
+#### Verificando a instalação
+
+Abra o terminal (no Windows, use o **Prompt de Comando** ou **Powershell**; no macOS e Linux, o **Terminal**) e digite o seguinte comando:
+
+```bash
+python --version
+```
+
+Se tudo estiver certo, a versão do Python será exibida. Você também pode usar `python3 --version` em sistemas baseados em UNIX, como Linux e macOS.
+
+💡 **Dica**: Utilize a combinação `CTRL + L` para limpar o terminal quando ele estiver cheio de informações.
+
+### Primeiro programa em Python: "Hello, World!"
+
+É hora de colocar a mão na massa! Vamos criar nosso primeiro programa em Python: o famoso **Hello, World!** 🌎. Ele é considerado o "primeiro passo" em qualquer linguagem de programação, e serve para garantir que o ambiente de desenvolvimento está funcionando corretamente.
+
+Abra seu editor de texto (pode ser o VSCode, PyCharm ou até o bloco de notas, se preferir) e escreva o seguinte código:
+
+```python
+print("Hello, World!")
+```
+
+Agora, salve o arquivo com o nome `hello_world.py` e execute no terminal com o comando:
+
+```bash
+python hello_world.py
+```
+
+Se tudo estiver certo, você verá o seguinte no terminal:
+
+```
+Hello, World!
+```
+
+🎉 **Parabéns, você acabou de criar seu primeiro programa em Python!**
+
+### Como executar scripts Python
+
+Existem várias maneiras de executar um script Python, e conhecer todas elas é importante para aumentar a sua eficiência como programador.
+
+#### Executando pelo Terminal
+
+Como você acabou de ver, podemos executar um script diretamente pelo terminal. Basta navegar até o diretório onde o arquivo está salvo e usar o comando:
+
+```bash
+python nome_do_seu_arquivo.py
+```
+
+#### Executando pelo seu Editor de Código
+
+A maioria dos editores de código como **VSCode**, **PyCharm** ou **Jupyter Notebook** permite que você execute o código diretamente na interface do programa. Basta abrir o arquivo e clicar no botão de "Run" ▶️.
+
+#### Executando interativamente
+
+Se você quer testar pequenos trechos de código, pode usar o modo interativo do Python. Basta digitar `python` no terminal, e você terá um ambiente onde pode testar comandos rapidamente, como uma calculadora.
+
+Exemplo:
+
+```python
+>>> 2 + 2
+4
+```
+
+#### Jupyter Notebooks
+
+Se você pretende trabalhar com **Ciência de Dados** ou **Análise de Dados**, vale a pena aprender a usar o Jupyter Notebook. Ele permite que você crie "cadernos" onde pode combinar código Python, texto explicativo, imagens e gráficos. É uma ferramenta poderosa! 🔍
+
 [Voltar ao início ⬆️](#Índice)
 
 ## **Fundamentos da Linguagem**
+
+### Tipos de dados básicos (int, float, str, bool)
+
+O Python possui tipos de dados essenciais que formam a base da linguagem. Vamos entendê-los e como eles se comportam.
+
+#### Inteiros
+`int`
+
+Os números inteiros são aqueles sem casas decimais, como 1, 42, -10. Em Python, eles são representados pelo tipo `int`.
+meu_inteiro = 10
+print(type(meu_inteiro))  # <class 'int'>
+
+
 
 [Voltar ao início ⬆️](#Índice)
 
