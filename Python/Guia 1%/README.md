@@ -97,7 +97,7 @@
         - Usando pacotes instalados
     - Principais bibliotecas do Python para iniciantes
         - Exercícios
-7. Manipulação de Arquivos
+7. [**Manipulação de Arquivos**](#Manipulação-de-Arquivos)
     - leitura e escrita de arquivos de texto
         - Abrindo um arquivo
         - Lendo um arquivo
@@ -112,7 +112,7 @@
         - Lendo um arquivo binário
         - Escrevendo em um arquivo binário
         - Exercícios
-8. Tratamendo de Exceções
+8. [**Tratamendo de Exceções**](#Tratamento-de-Exceções)
     - Introdução a erros e exceções
     - Blocos try, except, else e finally
         - Usando try e except
@@ -121,7 +121,7 @@
     - Criando exceções personalizadas
         - Criando uma exceção personalizada
         - Exercícios
-9. Programação Orientada a Objetos (POO)
+9. [**Programação Orientada a Objetos (POO)**](#Programação-Orientada-a-Objetos-POO)
     - O que é POO e por que usar?
     - Classes e objetos
         - Criando uma classe
