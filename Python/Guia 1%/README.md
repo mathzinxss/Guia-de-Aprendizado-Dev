@@ -287,12 +287,107 @@ Se você pretende trabalhar com **Ciência de Dados** ou **Análise de Dados**, 
 
 O Python possui tipos de dados essenciais que formam a base da linguagem. Vamos entendê-los e como eles se comportam.
 
-#### Inteiros   `int`
+#### Inteiros  `int`
 
 Os números inteiros são aqueles sem casas decimais, como 1, 42, -10. Em Python, eles são representados pelo tipo `int`.
+
+```python
 meu_inteiro = 10
 print(type(meu_inteiro))  # <class 'int'>
+```
 
+#### Pontos Flutuantes `float`
+
+Os `floats` são números com casas decimais. Por exemplo, `3.14`, `0.5` e `-7.0`. Eles são úteis para cálculos mais precisos, como medições e valores monetários.
+
+```python
+meu_float = 3.14
+print(type(meu_float))  # <class 'float'>
+```
+
+Imagine que você está medindo a quantidade de água em um copo 🥤. Você pode ter **150 ml** ou **150.5 ml**. O primeiro é um `int`, e o segundo é um `float`.
+
+#### Strings `str`
+
+Uma `string` é uma sequência de caracteres, usada para representar texto. Pode ser qualquer coisa que você coloca entre aspas simples `' '` ou duplas `" "`.
+
+```python
+meu_texto = "Olá, Python!"
+print(type(meu_texto))  # <class 'str'>
+```
+
+💡 As strings são como o papel que você escreve uma mensagem 📝, enquanto os outros tipos de dados são os números que fazem seus cálculos.
+
+#### Booleanos `bool`
+
+O tipo `bool` é usado para representar valores verdadeiros ou falsos, com apenas dois possíveis valores: `True` ou `False`. Eles são usados em estruturas de controle de fluxo, como condicionais.
+
+```python
+meu_bool = True
+print(type(meu_bool))  # <class 'bool'>
+```
+
+### Variáveis e tipos de atribuição
+
+As variáveis são como "caixas" onde você armazena valores 🗃️. Elas permitem que você manipule dados de forma dinâmica durante a execução do seu programa.
+
+#### Como declarar variáveis
+
+Você não precisa especificar o tipo da variável, o Python é dinamicamente tipado. Basta atribuir um valor com `=`.
+
+```python
+idade = 25   # A variável 'idade' agora contém um inteiro
+nome = "Maria"  # A variável 'nome' agora contém uma string
+```
+
+#### Regras para nomear variáveis
+
+- Devem começar com uma letra ou `_` (underline).
+- Não podem começar com um número.
+- Não podem conter espaços ou caracteres especiais como `@`, `#`, `!`.
+- São **case-sensitive** (`idade` e `Idade` são variáveis diferentes).
+
+💡 Imagine as variáveis como "etiquetas" que você coloca em caixas 📦. A etiqueta "idade" pode estar associada ao número `25`, e a etiqueta "nome" ao texto `"Maria"`.
+
+### Entrada e saída de dados (input e print)
+
+A comunicação entre você e seu programa é feita com as funções `input()` e `print()`.
+
+#### Saída de dados com `print()`
+
+A função `print()` é usada para exibir informações na tela.
+
+```python
+print("Olá, Mundo!")
+```
+
+#### Entrada de dados com `input()`
+
+A função `input()` permite que o usuário insira dados. O valor inserido é sempre do tipo `string`.
+
+```python
+nome = input("Digite seu nome: ")
+print("Bem-vindo, " + nome + "!")
+```
+
+
+💡 Dica: Quando precisar de um número do usuário, converta o valor de `input()` usando `int()` ou `float()`.
+
+```python
+idade = int(input("Digite sua idade: "))
+print("Você tem", idade, "anos.")
+```
+
+### Operadores aritméticos, relacionais e lógicos
+
+### Operadores aritméticos
+
+Esses operadores permitem realizar operações matemáticas:
+
+|  Operador  |  Descrição |   Exemplo  |
+|------------|------------|------------|
+|     `+`    |   Adição   | `2 + 3` = 5| 
+|     `-`    |  Subtração | `5 - 2` = 3|
 
 
 [Voltar ao início ⬆️](#Índice)
