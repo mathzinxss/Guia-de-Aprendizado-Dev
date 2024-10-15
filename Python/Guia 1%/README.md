@@ -150,7 +150,7 @@
         - Funções estatísticas
     - Operações com matrizes
         - Exercícios
-11. Biblioteca Pandas (análise de dados)
+11. [**Biblioteca Pandas (análise de dados)**](#Biblioteca-Pandas-análise-de-dados)
     - Introdução ao Pandas
     - Estruturas de dados principais do Pandas
         - Criando uma Series
@@ -163,7 +163,7 @@
         - Lendo arquivos CSV
         - Escrevendo arquivos CSV
         - Exercícios
-12. Biblioteca Matplotlib (visualização de dados)
+12. [**Biblioteca Matplotlib (visualização de dados**)](#Bibliotca-Matplotlib-visualização-de-dados)
     - Introdução ao Matplotlib
     - Criando gráficos básicos
         - Gráfico de linhas
@@ -174,7 +174,7 @@
         - Adicionando múltiplas séries de dados
     - Salvando gráficos
         - Exercícios
-13. Biblioteca Request (requisições HTTP)
+13. [**Biblioteca Request (requisições HTTP)**](#Biblioteca-Request-requisições-HTTP)
     - Introdução ao Requests
     - Fazendo requisições HTTP
         - Requisição GET
@@ -186,9 +186,7 @@
     - Tratamento de erros e exceções
         - Exercícios
 
-
-
-
+---
 
 ## **Introdução ao Python**
 
