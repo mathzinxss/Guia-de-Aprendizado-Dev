@@ -384,15 +384,15 @@ print("Você tem", idade, "anos.")
 
 Esses operadores permitem realizar operações matemáticas:
 
-|  Operador  |  Descrição |   Exemplo  |
-|------------|------------|------------|
-|     `+`    |   Adição   | `2 + 3` = 5| 
-|     `-`    |  Subtração | `5 - 2` = 3|
-|     `*`    |Multiplicação|`4 * 3` = 12|
-|     `/`    |   Divisão  |`10 / 2` = 5|
-|    `//`    |Divisão Inteira|`10 // 3` = 3|
-|     `%`    |   Resto    |`10 % 3` = 1|
-|    `**`    |  Potência  | `2 ** 3` = 8|
+            |  Operador  |  Descrição |   Exemplo  |
+            |------------|------------|------------|
+            |     `+`    |   Adição   | `2 + 3` = 5| 
+            |     `-`    |  Subtração | `5 - 2` = 3|
+            |     `*`    |Multiplicação|`4 * 3` = 12|
+            |     `/`    |   Divisão  |`10 / 2` = 5|
+            |    `//`    |Divisão Inteira|`10 // 3` = 3|
+            |     `%`    |   Resto    |`10 % 3` = 1|
+            |    `**`    |  Potência  | `2 ** 3` = 8|
 
 
 [Voltar ao início ⬆️](#Índice)
