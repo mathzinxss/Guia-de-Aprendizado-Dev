@@ -378,22 +378,53 @@ idade = int(input("Digite sua idade: "))
 print("Você tem", idade, "anos.")
 ```
 
-### Operadores aritméticos, relacionais e lógicos
+### **Operadores aritméticos, relacionais e lógicos**
 
-### Operadores aritméticos
+#### Operadores aritméticos
 
 Esses operadores permitem realizar operações matemáticas:
 
-|  Operador  |  Descrição |   Exemplo  |
-|------------|------------|------------|
-|     `+`    |   Adição   | `2 + 3` = 5| 
-|     `-`    |  Subtração | `5 - 2` = 3|
-|     `*`    |Multiplicação|`4 * 3` = 12|
-|     `/`    |   Divisão  |`10 / 2` = 5|
-|    `//`    |Divisão Inteira|`10 // 3` = 3|
-|     `%`    |   Resto    |`10 % 3` = 1|
-|    `**`    |  Potência  | `2 ** 3` = 8|
+|    Operador    |    Descrição    |    Exemplo    |
+|----------------|-----------------|---------------|
+|       `+`      |      Adição     |  `2 + 3` = 5  | 
+|       `-`      |     Subtração   |  `5 - 2` = 3  |
+|       `*`      |  Multiplicação  |  `4 * 3` = 12 |
+|       `/`      |      Divisão    | `10 / 2` = 5  |
+|      `//`      | Divisão Inteira |`10 // 3` = 3  |
+|       `%`      |       Resto     | `10 % 3` = 1  |
+|      `**`      |     Potência    |  `2 ** 3` = 8 |
 
+### Operadores relacionais
+
+Esses operadores comparam valores e retornam `True` ou `False`:
+
+|    Operador    |    Descrição    |    Exemplo    |
+|----------------|-----------------|---------------|
+|      `==`      |      Igual      |`5 == 5` = True|
+|      `!=`      |    Diferente    |`5 != 3` = True|
+|      `>`       |    Maior que    |`5 > 3` = True |
+|      `<`       |    Menor que    |`3 < 5` = True |
+|      `>=`      |  Maior ou Igual |`5 >= 5` = True|
+|      `<=`      |  Menor ou Igual |`3 <= 5` = True|
+ 
+#### Operadores lógicos
+
+São usados para combinar expressões:
+
+|    Operador    |    Descrição    |    Exemplo    |
+|----------------|-----------------|---------------|
+|     `and`      |        E        |`True and False` = False  |
+|      `or`      |       Ou        |`True or False` = True|
+|     `not`      |       Não       |`not True` = False |
+
+💡 Pense nos operadores como sinais de trânsito 🚦. Eles orientam como o fluxo do seu código deve prosseguir, baseando-se nas condições que você estabelece.
+
+### 📝 **Exercícios**
+
+1. **Crie um programa** que solicite ao usuário que insira seu nome e idade. Em seguida, exiba uma mensagem dizendo: `"Olá, [nome], você tem [idade] anos!"`.
+2. **Crie um programa** que leia dois números do usuário e exiba a soma, subtração, multiplicação e divisão desses números.
+3. **Crie um programa** que solicite ao usuário três notas e calcule a média aritmética delas. Exiba se o aluno está "Aprovado" (média ≥ 7) ou "Reprovado".
+4. **Crie um programa** que leia um número e exiba se ele é par ou ímpar usando o operador `%`.
 
 [Voltar ao início ⬆️](#Índice)
 
