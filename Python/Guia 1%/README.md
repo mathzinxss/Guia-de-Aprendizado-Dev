@@ -190,7 +190,7 @@
 
 ## **Introdução ao Python**
 
-### O que é Python e por que aprender?
+### **O que é Python e por que aprender?**
 
 Python é uma linguagem de programação de alto nível, interpretada e **extremamente versátil**. É usada em diversas áreas como desenvolvimento web, ciência de dados, inteligência artificial, automação, entre outras. Para entender melhor, vamos fazer uma analogia:
 
@@ -202,7 +202,7 @@ Imagine que você está em uma cozinha 🍳. Python seria como aquele **canivete
 2. **Grande Comunidade e Ecossistema**: Como Python é popular, há uma grande comunidade de programadores prontos para ajudar, e muitos recursos disponíveis. Isso significa que sempre haverá alguém para te ajudar quando você travar em alguma coisa 💡.
 3. **Bibliotecas e Frameworks Poderosos**: Python tem uma vasta quantidade de bibliotecas e frameworks, como o `numpy` para cálculo numérico, `pandas` para manipulação de dados, e `django` para desenvolvimento web. É como ter um arsenal de ferramentas prontas para qualquer situação que você enfrentar 🛠️.
 
-### Instalação do Python e configuração do ambiente
+### **Instalação do Python e configuração do ambiente**
 
 Antes de começar a programar, precisamos instalar o Python no seu computador. Siga os passos abaixo para configurar seu ambiente:
 
@@ -224,7 +224,7 @@ Se tudo estiver certo, a versão do Python será exibida. Você também pode usa
 
 💡 **Dica**: Utilize a combinação `CTRL + L` para limpar o terminal quando ele estiver cheio de informações.
 
-### Primeiro programa em Python: "Hello, World!"
+### **Primeiro programa em Python: "Hello, World!"**
 
 É hora de colocar a mão na massa! Vamos criar nosso primeiro programa em Python: o famoso **Hello, World!** 🌎. Ele é considerado o "primeiro passo" em qualquer linguagem de programação, e serve para garantir que o ambiente de desenvolvimento está funcionando corretamente.
 
@@ -248,7 +248,7 @@ Hello, World!
 
 🎉 **Parabéns, você acabou de criar seu primeiro programa em Python!**
 
-### Como executar scripts Python
+### **Como executar scripts Python**
 
 Existem várias maneiras de executar um script Python, e conhecer todas elas é importante para aumentar a sua eficiência como programador.
 
@@ -283,7 +283,7 @@ Se você pretende trabalhar com **Ciência de Dados** ou **Análise de Dados**, 
 
 ## **Fundamentos da Linguagem**
 
-### Tipos de dados básicos (int, float, str, bool)
+### **Tipos de dados básicos (int, float, str, bool)**
 
 O Python possui tipos de dados essenciais que formam a base da linguagem. Vamos entendê-los e como eles se comportam.
 
@@ -327,7 +327,7 @@ meu_bool = True
 print(type(meu_bool))  # <class 'bool'>
 ```
 
-### Variáveis e tipos de atribuição
+### **Variáveis e tipos de atribuição**
 
 As variáveis são como "caixas" onde você armazena valores 🗃️. Elas permitem que você manipule dados de forma dinâmica durante a execução do seu programa.
 
@@ -349,7 +349,7 @@ nome = "Maria"  # A variável 'nome' agora contém uma string
 
 💡 Imagine as variáveis como "etiquetas" que você coloca em caixas 📦. A etiqueta "idade" pode estar associada ao número `25`, e a etiqueta "nome" ao texto `"Maria"`.
 
-### Entrada e saída de dados (input e print)
+### **Entrada e saída de dados (input e print)**
 
 A comunicação entre você e seu programa é feita com as funções `input()` e `print()`.
 
@@ -369,7 +369,6 @@ A função `input()` permite que o usuário insira dados. O valor inserido é se
 nome = input("Digite seu nome: ")
 print("Bem-vindo, " + nome + "!")
 ```
-
 
 💡 Dica: Quando precisar de um número do usuário, converta o valor de `input()` usando `int()` ou `float()`.
 
@@ -394,7 +393,7 @@ Esses operadores permitem realizar operações matemáticas:
 |       `%`      |       Resto     | `10 % 3` = 1  |
 |      `**`      |     Potência    |  `2 ** 3` = 8 |
 
-### Operadores relacionais
+#### Operadores relacionais
 
 Esses operadores comparam valores e retornam `True` ou `False`:
 
@@ -430,9 +429,353 @@ São usados para combinar expressões:
 
 ## **Estruturas de Controle de Fluxo**
 
+### **Condicionais (if, elif, else)**
+
+As estruturas condicionais permitem que o programa **tome decisões** com base em certas condições, assim como nós fazemos diariamente. Imagine que você está planejando sair, e decide se vai levar um guarda-chuva ☔️. Se estiver chovendo, você leva; se não, deixa em casa. As condicionais no Python funcionam da mesma forma.
+
+#### A estrutura `if`
+
+A estrutura `if` é usada para executar um bloco de código se uma condição for verdadeira.
+
+```python
+idade = 18
+if idade >= 18:
+    print("Você é maior de idade.")
+
+```
+💡 **Dica**: O Python utiliza **indentação** (4 espaços ou um TAB) para definir blocos de código. Tome cuidado com a identação, pois ela é essencial para que o programa funcione corretamente!
+
+#### A estrutura `else`
+
+O `else` especifica o que fazer caso a condição do if não seja verdadeira.
+
+```python
+idade = 16
+if idade >= 18:
+    print("Você é maior de idade.")
+else:
+    print("Você é menor de idade.")
+```
+
+#### A estrutura `elif`
+
+Se você precisar verificar várias condições, pode usar `elif` (abreviação de "else if"). Pense nele como opções adicionais para o seu "se".
+
+```python
+nota = 8.5
+if nota >= 9:
+    print("Excelente!")
+elif nota >= 7:
+    print("Bom trabalho!")
+else:
+    print("Você precisa melhorar.")
+
+```
+
+💡 **Analogias do dia a dia**: Imagine que está pedindo uma pizza 🍕. Se você quer uma pizza de "Calabresa", a escolha é clara. Se não tiver calabresa, você aceita "Mussarela". Se nem calabresa nem mussarela estiverem disponíveis, vai de "Frango". O `if`, `elif` e `else` funcionam como as opções que você tem no menu.
+
+### **Estruturas de repetição (for e while)**
+
+As estruturas de repetição permitem executar um bloco de código várias vezes, o que é útil para evitar repetições desnecessárias.
+
+#### Estrutura `for`
+
+O `for` é usado quando sabemos o número de iterações ou quando queremos percorrer uma sequência (lista, tupla, string, etc.).
+
+```python
+nomes = ["Ana", "Carlos", "Bianca"]
+for nome in nomes:
+    print("Olá,", nome)
+```
+
+#### Função `range()` com `for`
+
+O `range()` gera uma sequência de números. Ele é muito útil em conjunto com `for`.
+
+```python
+for i in range(5):  # Imprime os números de 0 a 4
+    print(i)
+
+```
+
+💡 Imagine que você está na academia 🏋️. Quando o instrutor diz para fazer 10 repetições, você sabe que vai repetir 10 vezes o mesmo movimento – é o mesmo conceito do `for`.
+
+#### Estrutura `while`
+
+O `while` é usado quando não sabemos quantas vezes a repetição deve ocorrer, pois ela depende de uma condição ser verdadeira.
+
+```python
+contador = 0
+while contador < 5:
+    print("Contagem:", contador)
+    contador += 1
+
+```
+
+⚠️ **Cuidado**: Certifique-se de que a condição do `while` se tornará falsa em algum momento, ou seu código entrará em um **loop infinito**!
+
+### **Controle de loops (break, continue, pass)**
+
+Às vezes, precisamos de mais controle sobre nossos loops. O Python oferece as palavras-chave `break`, `continue` e `pass` para lidar com essas situações.
+
+#### `break`
+
+O `break` encerra o loop imediatamente.
+
+```python
+for numero in range(10):
+    if numero == 5:
+        break
+    print(numero)
+# Saída: 0, 1, 2, 3, 4
+```
+
+#### `continue`
+
+O `continue` interrompe a iteração atual e passa para a próxima.
+
+```python
+for numero in range(5):
+    if numero == 2:
+        continue
+    print(numero)
+# Saída: 0, 1, 3, 4
+```
+
+#### `pass`
+
+O `pass` é um "placeholder". Não faz nada, mas é útil quando a sintaxe exige que um bloco de código esteja presente.
+
+```python
+for i in range(3):
+    pass  # Futuramente, adicionaremos o código aqui
+```
+
+### **Compreensão de listas (list comprehensions)**
+
+A compreensão de listas é uma maneira concisa de criar listas em Python, tornando seu código mais legível e eficiente.
+
+#### Sintaxe básica
+
+```python
+numeros = [x for x in range(5)]
+print(numeros)  # [0, 1, 2, 3, 4]
+```
+
+#### Compreensão de listas com condições
+
+Podemos adicionar condições à compreensão de listas.
+
+```python
+pares = [x for x in range(10) if x % 2 == 0]
+print(pares)  # [0, 2, 4, 6, 8]
+
+```
+
+### 📝 **Exercícios**
+
+1. **Escreva um programa** que peça ao usuário um número e diga se ele é positivo, negativo ou zero, usando condicionais `if`, `elif` e `else`.
+2. **Crie uma lista** com os nomes de cinco amigos e, usando um `for`, exiba uma mensagem de saudação para cada um.
+3. **Escreva um programa** que calcule a soma de todos os números pares de 1 a 100 utilizando um loop `for`.
+4. **Crie um programa** que simule uma senha de 4 dígitos. O usuário tem 3 tentativas para acertar. Use um loop `while` e o `break` para controlar as tentativas.
+
+💡 **Analogias do mundo real**: É como uma "linha de montagem" 🚗. A list comprehension cria elementos seguindo um padrão definido, como peças sendo montadas em série.
+
 [Voltar ao início ⬆️](#Índice)
 
 ## **Estruturas de Dados em Python**
+
+### Listas
+
+As listas são uma das estruturas de dados mais versáteis em Python. Pense nelas como uma **prateleira de livros** 📚, onde cada livro ocupa uma posição específica e você pode acessar, adicionar ou remover livros quando quiser.
+
+#### Criando listas
+
+Você pode criar uma lista usando colchetes `[]` e separando os elementos por vírgulas.
+
+```python
+minha_lista = [1, 2, 3, "Python", True]
+print(minha_lista)  # [1, 2, 3, "Python", True]
+```
+
+#### Acessando elementos
+
+Para acessar um elemento de uma lista, utilizamos o índice (posição) do item. **Lembre-se que a contagem começa em 0.**
+
+```python
+print(minha_lista[0])  # 1
+print(minha_lista[3])  # "Python"
+```
+​
+💡 **Dica:** Use índices negativos para acessar os elementos de trás para frente!
+
+```python
+print(minha_lista[-1])  # True
+```
+
+#### Modificando listas
+
+Você pode adicionar, remover ou alterar elementos da lista.
+
+- **Adicionar:**  Use `append()` para adicionar um elemento ao final da lista.
+
+```python
+minha_lista.append("Novo Item")
+print(minha_lista)
+```
+​
+- **Remover:** Use `remove()` para remover um item específico, ou `pop()` para remover pelo índice.
+
+```python
+minha_lista.remove("Python")
+print(minha_lista)
+
+minha_lista.pop(0)  # Remove o primeiro elemento
+print(minha_lista)
+```
+
+#### Iterando sobre listas
+
+Você pode usar um `for` para percorrer cada item da lista.
+
+```python
+for item in minha_lista:
+    print(item)
+```
+
+### **Tuplas**
+
+As tuplas são similares às listas, mas são **imutáveis**, ou seja, **não podem ser alteradas** depois de criadas. Pense nelas como o **menu de um restaurante** 🍽️. Uma vez que o menu está impresso, não é possível alterar as opções sem fazer um novo.    
+
+#### Criando tuplas
+
+Use parênteses `()` para criar uma tupla.
+
+```python
+minha_tupla = (1, 2, 3, "Python", True)
+print(minha_tupla)
+```
+
+#### Acessando elementos da tupla
+
+O acesso é feito da mesma forma que em listas, utilizando índices.
+
+```python
+print(minha_tupla[1])  # 2
+
+```
+
+### **Conjuntos (sets)**
+
+Conjuntos são coleções **não ordenadas e sem elementos duplicados**. Pense neles como uma **caixa de lápis de cor** 🎨, onde cada cor aparece apenas uma vez.
+
+#### Criando conjuntos
+
+Use chaves `{}` para criar um conjunto.
+
+```python
+meu_conjunto = {1, 2, 2, 3, 4, 4}
+print(meu_conjunto)  # {1, 2, 3, 4}
+```
+
+#### Operações com conjuntos
+
+Você pode realizar operações como união `(|)`, interseção `(&)` e diferença `(-)`.
+
+```python
+a = {1, 2, 3}
+b = {3, 4, 5}
+
+print(a | b)  # União: {1, 2, 3, 4, 5}
+print(a & b)  # Interseção: {3}
+print(a - b)  # Diferença: {1, 2}
+```
+
+### **Dicionários**
+
+Os dicionários são como um **manual de instruções** 📖, onde cada "palavra" tem um "significado". Eles armazenam pares de **chave: valor**.
+
+#### Criando dicionários
+
+Use chaves `{}` e separe os pares com `:`.
+
+```python
+meu_dict = {"nome": "Python", "ano": 1991, "tipo": "Linguagem de Programação"}
+print(meu_dict)
+```
+
+#### Acessando e modificando valores
+
+Você pode acessar um valor utilizando sua chave.
+
+```python
+print(meu_dict["nome"])  # "Python"
+
+# Modificando
+meu_dict["ano"] = 2024
+print(meu_dict)
+```
+
+#### Métodos úteis de dicionários
+
+- `keys()`: Retorna todas as chaves.
+- `values()`: Retorna todos os valores.
+- `items()`: Retorna todos os pares chave-valor.
+
+```python
+print(meu_dict.keys())    # dict_keys(['nome', 'ano', 'tipo'])
+print(meu_dict.values())  # dict_values(['Python', 2024, 'Linguagem de Programação'])
+```
+
+### **Operações e métodos com cada estrutura de dados**
+
+#### Listas
+
+- `len(lista)`: Retorna o número de elementos.
+- `max(lista)`, `min(lista)`: Retorna o maior e menor elemento.
+- `sort()`: Ordena a lista em ordem crescente.
+
+```python
+lista = [3, 1, 4, 1, 5]
+lista.sort()
+print(lista)  # [1, 1, 3, 4, 5]
+```
+
+#### Tuplas
+
+- `count(valor)`: Conta quantas vezes o valor aparece na tupla.
+- `index(valor)`: Retorna o índice da primeira ocorrência do valor.
+
+#### Conjuntos
+
+- ´add(elemento)`: Adiciona um elemento ao conjunto.
+- `remove(elemento)`: Remove um elemento específico.
+
+```python
+meu_conjunto.add(6)
+print(meu_conjunto)  # {1, 2, 3, 4, 6}
+```
+
+#### Dicionários
+
+- `get(chave)`: Retorna o valor associado à chave, ou `None` se a chave não existir.
+- `pop(chave)`: Remove a chave e retorna seu valor.
+
+```python
+valor = meu_dict.pop("ano")
+print(valor)       # 2024
+print(meu_dict)    # {'nome': 'Python', 'tipo': 'Linguagem de Programação'}
+
+```
+
+### 📝 **Exercícios**
+
+1. **Crie uma lista** com os números de 1 a 10 e imprima apenas os números pares.
+2. **Crie uma tupla** com cinco elementos e tente alterá-los para entender a imutabilidade.
+3. **Crie um conjunto** a partir de uma lista que contém elementos duplicados e mostre como os duplicados são removidos.
+4. **Crie um dicionário** que armazene o nome, idade e cidade de uma pessoa e exiba essas informações de forma organizada.
+
+
 
 [Voltar ao início ⬆️](#Índice)
 
