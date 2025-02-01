@@ -26,7 +26,7 @@ Um **grafo** é uma coleção de **nós** (ou vértices) conectados por **aresta
 - **Grafo Direcionado:** As arestas têm uma direção.
 - **Grafo Não Direcionado:** As arestas são bidirecionais.
 
-![image](https://prod-files-secure.s3.us-west-2.amazonaws.com/f7feecbd-7058-4805-b782-5c71283c99cc/2c8c321c-f86f-4812-b7e9-ca9b72d7ee2d/image.png)
+![image.png]([https://prod-files-secure.s3.us-west-2.amazonaws.com/f7feecbd-7058-4805-b782-5c71283c99cc/2c8c321c-f86f-4812-b7e9-ca9b72d7ee2d/image.png](https://file.notion.so/f/f/f7feecbd-7058-4805-b782-5c71283c99cc/2c8c321c-f86f-4812-b7e9-ca9b72d7ee2d/image.png?table=block&id=17eb1e7d-a8f2-817d-b4f6-ed016e95c4f8&spaceId=f7feecbd-7058-4805-b782-5c71283c99cc&expirationTimestamp=1738396800000&signature=pDuabAwsmtEYt3cVtTLaNlD0j3pMWLIhIfRmlXDF-nA&downloadName=image.png))
 
 ---
 
