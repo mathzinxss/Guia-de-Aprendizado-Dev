@@ -1,6 +1,6 @@
 # **Dia 27/01 - Docker**
 
-1. [**O que é Docker? 🐳**](#O-que-é-Docker?-🐳)
+1. [**O que é Docker? 🐳**](#O-que-é-Docker?)
     - Vantagens e desvantagens do uso do Docker
         - Vantagens
         - Desvantagens
