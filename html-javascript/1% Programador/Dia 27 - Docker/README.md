@@ -1,6 +1,10 @@
 # **Dia 27/01 - Docker**
 
+<<<<<<< HEAD
 1. [**O que é Docker?**](#o-que-é-docker?)
+=======
+1. [**O que é Docker?**](#O-que-é-Docker?-🐳)
+>>>>>>> 0434950ca3c9fe6092979048be2d8b164f80d3da
     - Vantagens e desvantagens do uso do Docker
         - Vantagens
         - Desvantagens
@@ -532,3 +536,7 @@ docker exec -it my-nginx /bin/bash
     - Use `docker exec` para acessar o shell do container e crie um arquivo de texto dentro dele.
 
 
+<<<<<<< HEAD
+=======
+Docker é uma plataforma de código aberto que facilita a criação, o desenvolvimento, o envio e a execução de aplicações em containers. Containers são ambientes isolados que contêm tudo o que uma aplicação precisa para ser executada: bibliotecas, dependências, código, etc. Isso garante que a aplicação funcione de maneira consistente, independentemente do ambiente onde está sendo executada.
+>>>>>>> 0434950ca3c9fe6092979048be2d8b164f80d3da
